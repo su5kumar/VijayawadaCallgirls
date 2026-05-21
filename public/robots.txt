@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Host
+Host: https://www.vijayawadacallgirls.online
+
+# Sitemaps
+Sitemap: https://www.vijayawadacallgirls.online/sitemap.xml
