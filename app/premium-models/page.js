@@ -8,12 +8,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Premium Models Vijayawada | Elite Model Companions',
   description: 'Connect with premium model companions in Vijayawada. Professional models offering sophisticated companionship for high-profile events, photoshoots, and executive gatherings.',
+  keywords: ['premium models Vijayawada', 'model escorts Vijayawada', 'elite model companions', 'professional model companionship Vijayawada'],
   alternates: { canonical: `${SITE_URL}/premium-models` },
   openGraph: {
     title: 'Premium Models Vijayawada | Elite Model Companions',
     description: 'Elite model companions for high-profile events in Vijayawada.',
     url: `${SITE_URL}/premium-models`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Premium Models Vijayawada | Elite Model Companions',
+    description: 'Elite model companions for high-profile events in Vijayawada.',
   },
 };
 

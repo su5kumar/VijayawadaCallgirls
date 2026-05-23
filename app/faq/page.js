@@ -7,12 +7,18 @@ import { SITE_URL, FAQ_ITEMS } from '@/lib/constants';
 export const metadata = {
   title: 'FAQ | Frequently Asked Questions About Our Service',
   description: 'Find answers to common questions about our premium escort service in Vijayawada. Booking process, privacy, locations, availability, and more.',
+  keywords: ['FAQ escorts Vijayawada', 'escort booking questions', 'how to book escort Vijayawada', 'escort service FAQ'],
   alternates: { canonical: `${SITE_URL}/faq` },
   openGraph: {
     title: 'FAQ | Frequently Asked Questions',
     description: 'Common questions about premium escort service in Vijayawada.',
     url: `${SITE_URL}/faq`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'FAQ | Frequently Asked Questions',
+    description: 'Common questions about premium escort service in Vijayawada.',
   },
 };
 

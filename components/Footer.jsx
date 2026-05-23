@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { ShieldCheck, ChevronRight, MessageSquare, Mail } from 'lucide-react';
-import { NAV_LINKS, LOCATIONS, WHATSAPP_URL, EMAIL, SITE_NAME } from '@/lib/constants';
+import { ShieldCheck, ChevronRight, MessageSquare, Mail, Phone } from 'lucide-react';
+import { NAV_LINKS, LOCATIONS, SERVICE_PAGES, WHATSAPP_URL, EMAIL, PHONE, SITE_NAME } from '@/lib/constants';
 
 export default function Footer() {
   return (
@@ -23,12 +23,12 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Explore</h4>
+            <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Services</h4>
             <ul className="space-y-2.5">
-              {NAV_LINKS.slice(0, 6).map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="text-[#a0a0b0] hover:text-[#d4af37] text-sm flex items-center gap-1.5 transition-colors">
-                    <ChevronRight size={12} /> {link.label}
+              {SERVICE_PAGES.map((page) => (
+                <li key={page.slug}>
+                  <Link href={`/${page.slug}`} className="text-[#a0a0b0] hover:text-[#d4af37] text-sm flex items-center gap-1.5 transition-colors">
+                    <ChevronRight size={12} /> {page.name}
                   </Link>
                 </li>
               ))}
@@ -59,6 +59,9 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Contact</h4>
             <p className="text-[#a0a0b0] text-sm mb-4">Secure concierge desk for private verifications and bookings.</p>
             <div className="space-y-3">
+              <a href={`tel:${PHONE}`} className="flex items-center gap-2.5 text-sm text-[#a0a0b0] hover:text-[#d4af37] transition-colors">
+                <Phone size={16} className="text-[#d4af37]" /> {PHONE}
+              </a>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 text-sm text-[#a0a0b0] hover:text-[#d4af37] transition-colors">
                 <MessageSquare size={16} className="text-[#d4af37]" /> WhatsApp Support
               </a>

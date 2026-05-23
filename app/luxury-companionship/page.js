@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Luxury Companionship Vijayawada | Executive Lifestyle Experiences',
   description: 'Indulge in luxury companionship in Vijayawada. Refined partners for high-society events, premium travel, executive dining, and exclusive private experiences.',
+  keywords: ['luxury companionship Vijayawada', 'luxury escorts Vijayawada', 'executive companionship', 'premium lifestyle Vijayawada'],
   alternates: { canonical: `${SITE_URL}/luxury-companionship` },
   openGraph: {
     title: 'Luxury Companionship Vijayawada | Executive Lifestyle Experiences',
     description: 'Refined luxury companionship for executive lifestyles in Vijayawada.',
     url: `${SITE_URL}/luxury-companionship`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Luxury Companionship Vijayawada | Executive Lifestyle Experiences',
+    description: 'Refined luxury companionship for executive lifestyles in Vijayawada.',
   },
 };
 

@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Escorts Near Benz Circle Vijayawada | Premium Local Service',
   description: 'Find premium escorts near Benz Circle, Vijayawada. Luxury companionship available at top hotels, restaurants, and business venues around Benz Circle area.',
+  keywords: ['escorts near Benz Circle', 'Benz Circle escorts Vijayawada', 'call girls Benz Circle', 'companionship Benz Circle'],
   alternates: { canonical: `${SITE_URL}/benz-circle-escorts` },
   openGraph: {
     title: 'Escorts Near Benz Circle Vijayawada',
     description: 'Premium escorts service near Benz Circle, Vijayawada.',
     url: `${SITE_URL}/benz-circle-escorts`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Escorts Near Benz Circle Vijayawada',
+    description: 'Premium escorts service near Benz Circle, Vijayawada.',
   },
 };
 

@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Escorts Near MG Road Vijayawada | Premium Companions',
   description: 'Premium escorts near MG Road, Vijayawada. Luxury companionship for entertainment districts, shopping areas, and nightlife venues along MG Road.',
+  keywords: ['MG Road escorts Vijayawada', 'escorts near MG Road', 'call girls MG Road Vijayawada'],
   alternates: { canonical: `${SITE_URL}/mg-road-vijayawada` },
   openGraph: {
     title: 'Escorts Near MG Road Vijayawada',
     description: 'Premium escorts near MG Road, Vijayawada.',
     url: `${SITE_URL}/mg-road-vijayawada`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Escorts Near MG Road Vijayawada',
+    description: 'Premium escorts near MG Road, Vijayawada.',
   },
 };
 

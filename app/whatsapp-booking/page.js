@@ -7,12 +7,18 @@ import { MessageCircle, Clock, Shield, CheckCircle } from 'lucide-react';
 export const metadata = {
   title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
   description: 'Book premium escorts in Vijayawada instantly via WhatsApp. Fast, secure, and confidential booking process with dedicated concierge support available 24/7.',
+  keywords: ['WhatsApp booking escort Vijayawada', 'book escort Vijayawada', 'instant booking escorts', 'escort booking online Vijayawada'],
   alternates: { canonical: `${SITE_URL}/whatsapp-booking` },
   openGraph: {
     title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
     description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
     url: `${SITE_URL}/whatsapp-booking`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
+    description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
   },
 };
 

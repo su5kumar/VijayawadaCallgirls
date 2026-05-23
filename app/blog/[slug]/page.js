@@ -104,6 +104,114 @@ const blogData = {
     ],
     relatedPosts: ['luxury-lifestyle-vijayawada', 'vip-nightlife-guide-vijayawada'],
   },
+  'how-to-book-escort-service-vijayawada': {
+    title: 'How to Book Escort Service in Vijayawada — Complete Guide',
+    metaDesc: 'Step-by-step guide on how to book escort service in Vijayawada. WhatsApp booking, safety tips, what to expect, and discreet coordination explained.',
+    category: 'Booking Guide',
+    date: '2026-05-20',
+    content: [
+      { type: 'p', text: 'Booking premium escort service in Vijayawada is straightforward, discreet, and designed to prioritize your comfort at every stage. This comprehensive guide covers everything from first contact to your premium experience.' },
+      { type: 'h2', text: 'Step 1: Choose Your Preferred Service Type' },
+      { type: 'p', text: 'Before reaching out, consider what type of companionship you seek. Options include VIP escorts for upscale events, independent companions for personalized experiences, hotel visit services for travelers, or luxury companionship for social occasions. Each service type offers different advantages.' },
+      { type: 'h2', text: 'Step 2: Contact via WhatsApp' },
+      { type: 'p', text: 'WhatsApp is our primary booking channel for a reason — it offers end-to-end encryption, instant messaging, and multimedia sharing for profile viewing. Simply click our WhatsApp button or message our dedicated concierge number. Our team responds within 5 minutes at any hour.' },
+      { type: 'h2', text: 'Step 3: Share Your Preferences' },
+      { type: 'p', text: 'Once connected, share your timing, preferred location (hotel, restaurant, or other venue), companion preferences, and any specific requirements. The more detail you provide, the better we can match you with the perfect companion.' },
+      { type: 'h2', text: 'Step 4: Profile Review & Selection' },
+      { type: 'p', text: 'Our concierge will share verified companion profiles matching your preferences. Review at your leisure and select your preferred companion. All profiles are authentic, recently verified, and accurately represent our companions.' },
+      { type: 'h2', text: 'Step 5: Confirmation & Coordination' },
+      { type: 'p', text: 'Once confirmed, we handle all logistics — timing coordination, venue details, and any special arrangements. Your companion will arrive discreetly at the agreed location and time.' },
+      { type: 'h2', text: 'Safety & Privacy Tips' },
+      { type: 'p', text: 'Always book through our official channels. Never share excessive personal information upfront. Trust the process and let our concierge handle coordination. All communications remain encrypted and confidential.' },
+      { type: 'h2', text: 'What to Expect During Your Experience' },
+      { type: 'p', text: 'Our companions are professionally trained in social etiquette, conversation, and discretion. Whether it is a dinner date, event companionship, or private time, expect elegance, warmth, and complete professionalism throughout your booking.' },
+    ],
+    relatedPosts: ['privacy-booking-guide', 'what-are-independent-escorts-vijayawada'],
+  },
+  'what-are-independent-escorts-vijayawada': {
+    title: 'What Are Independent Escorts in Vijayawada?',
+    metaDesc: 'Learn what independent escorts in Vijayawada offer — personalized experiences, direct communication, flexibility, and authentic connections without intermediaries.',
+    category: 'Service Guides',
+    date: '2026-05-18',
+    content: [
+      { type: 'p', text: 'Independent escorts represent a unique category within premium companionship services. Unlike agency-managed companions, independent escorts in Vijayawada are self-managed professionals who control every aspect of their service.' },
+      { type: 'h2', text: 'Defining Independent Escorts' },
+      { type: 'p', text: 'An independent escort is a self-employed companion who manages their own schedule, client selection, service offerings, and personal branding. They partner with platforms like ours for verification and visibility while maintaining complete professional autonomy.' },
+      { type: 'h2', text: 'Benefits of Choosing Independent Companions' },
+      { type: 'p', text: 'Independent escorts offer several distinct advantages: direct personal communication without intermediaries, genuinely personalized experiences tailored to individual clients, flexible scheduling that adapts to your needs, and authentic connections built on mutual respect rather than corporate protocols.' },
+      { type: 'h2', text: 'How They Differ from Agency Escorts' },
+      { type: 'p', text: 'Agency escorts follow standardized procedures set by their management. Independent companions craft their own approach — from conversation style to service boundaries. This results in more authentic, spontaneous, and personally meaningful encounters.' },
+      { type: 'h2', text: 'Verification & Trust' },
+      { type: 'p', text: 'While independent, our platform verifies every companion for authenticity, professionalism, and client satisfaction. This combines the personal touch of independent service with the trust signals of a verified platform.' },
+      { type: 'h2', text: 'Finding Independent Escorts in Vijayawada' },
+      { type: 'p', text: 'Our platform features a curated selection of verified independent escorts in Vijayawada. Browse profiles, read about their personalities, and connect via WhatsApp for direct communication. Each independent companion brings unique qualities to your experience.' },
+    ],
+    relatedPosts: ['vip-vs-independent-escorts', 'how-to-book-escort-service-vijayawada'],
+  },
+  'vip-vs-independent-escorts': {
+    title: 'VIP vs Independent Escorts — Which Should You Choose?',
+    metaDesc: 'Compare VIP and independent escorts in Vijayawada. Understand the differences in experience, pricing, personalization, and service style to make the right choice.',
+    category: 'Comparison Guide',
+    date: '2026-05-16',
+    content: [
+      { type: 'p', text: 'Choosing between VIP and independent escorts depends on your preferences, occasion, and desired experience. Both offer premium companionship but differ significantly in approach, presentation, and service philosophy.' },
+      { type: 'h2', text: 'VIP Escorts — The Premium Tier' },
+      { type: 'p', text: 'VIP escorts represent the highest tier of companionship. These are exceptionally curated individuals — often with advanced education, modeling backgrounds, multilingual abilities, and extensive experience at high-profile events. They excel in corporate settings, luxury venues, and situations demanding extraordinary presence.' },
+      { type: 'h2', text: 'Independent Escorts — The Personal Touch' },
+      { type: 'p', text: 'Independent escorts prioritize personal connection and authenticity. They control their own services, build genuine rapport with clients, and offer flexibility that structured VIP services may not. The experience feels more intimate, spontaneous, and personally tailored.' },
+      { type: 'h2', text: 'Key Differences Compared' },
+      { type: 'p', text: 'Communication: VIP escorts typically coordinate through our concierge, while independent companions often communicate directly. Scheduling: VIP escorts follow structured availability, independents offer more flexibility. Experience: VIP emphasizes prestige and polish, independent emphasizes authenticity and personal connection.' },
+      { type: 'h2', text: 'When to Choose VIP' },
+      { type: 'p', text: 'Choose VIP escorts for: corporate events requiring exceptional presentation, high-profile social gatherings, luxury travel companionship, situations where prestige and social standing matter, and when you want the concierge team to handle all coordination.' },
+      { type: 'h2', text: 'When to Choose Independent' },
+      { type: 'p', text: 'Choose independent escorts for: personal and intimate experiences, when you value direct communication, flexible or spontaneous scheduling, building ongoing genuine connections, and when you prefer a more relaxed and authentic encounter.' },
+      { type: 'h2', text: 'Making Your Decision' },
+      { type: 'p', text: 'Both options deliver premium experiences. Consider your occasion, personal style, and what matters most to you. Our WhatsApp concierge can also recommend the best fit based on your specific requirements.' },
+    ],
+    relatedPosts: ['what-are-independent-escorts-vijayawada', 'luxury-lifestyle-vijayawada'],
+  },
+  'hotel-booking-guide-travelers-vijayawada': {
+    title: 'Hotel Booking Guide for Travelers in Vijayawada',
+    metaDesc: 'Complete hotel booking guide for travelers visiting Vijayawada. Best hotels for escort services, discreet booking tips, and premium accommodation recommendations.',
+    category: 'Travel Guide',
+    date: '2026-05-12',
+    content: [
+      { type: 'p', text: 'For travelers visiting Vijayawada who seek premium companionship, choosing the right hotel significantly impacts your experience. This guide covers the best areas, hotel types, and booking strategies for a seamless visit.' },
+      { type: 'h2', text: 'Best Hotel Areas for Travelers' },
+      { type: 'p', text: 'Benz Circle area offers the highest concentration of five-star and premium business hotels. MG Road provides excellent mid-luxury options with vibrant surroundings. Bandar Road near the railway station suits transit travelers. The airport corridor serves those with early flights.' },
+      { type: 'h2', text: 'What to Look For in a Hotel' },
+      { type: 'p', text: 'Priority features for companionship-friendly stays include: professional reception staff, 24-hour front desk, no restrictive guest policies, executive floors with private access, and quality in-room amenities for comfortable hosting.' },
+      { type: 'h2', text: 'Booking Tips for Discretion' },
+      { type: 'p', text: 'Book executive or suite categories for more space and privacy. Choose hotels with separate elevators or executive floor access. Opt for check-in procedures that minimize lobby interaction. Our concierge can recommend specific properties known for professional discretion.' },
+      { type: 'h2', text: 'Coordinating Companionship with Your Stay' },
+      { type: 'p', text: 'Once your hotel is booked, share the property name with our WhatsApp concierge. We will coordinate companion arrival timing, suggest the best meeting approach for that specific venue, and ensure seamless logistics.' },
+      { type: 'h2', text: 'Premium Hotels We Recommend' },
+      { type: 'p', text: 'While we serve all premium hotels across Vijayawada, certain properties consistently deliver exceptional experiences for our clients. Contact our concierge for personalized hotel recommendations based on your budget and preferences.' },
+    ],
+    relatedPosts: ['executive-lifestyle-travel-tips', 'privacy-booking-guide'],
+  },
+  'which-areas-vijayawada-escort-services': {
+    title: 'Which Areas in Vijayawada Have Escort Services?',
+    metaDesc: 'Complete guide to escort service areas in Vijayawada — Benz Circle, MG Road, Governorpet, Railway Station, Gannavaram, and all premium locations covered.',
+    category: 'Local SEO Guide',
+    date: '2026-05-08',
+    content: [
+      { type: 'p', text: 'Vijayawada is a vibrant city with premium companionship services available across multiple key areas. Understanding which neighborhoods and zones offer the best accessibility helps you plan your experience effectively.' },
+      { type: 'h2', text: 'Benz Circle — Premium Hub' },
+      { type: 'p', text: 'Benz Circle is Vijayawada\'s most upscale commercial area with the highest concentration of five-star hotels, luxury restaurants, and corporate offices. It is the most popular area for premium escort services due to excellent venue options and rapid companion availability.' },
+      { type: 'h2', text: 'MG Road — Entertainment District' },
+      { type: 'p', text: 'MG Road serves as Vijayawada\'s entertainment and business corridor. Hotels, restaurants, lounges, and nightlife venues make it ideal for evening companionship bookings. The area is vibrant, well-connected, and offers diverse venue choices.' },
+      { type: 'h2', text: 'Governorpet — Heritage Business Quarter' },
+      { type: 'p', text: 'Governorpet combines heritage charm with modern business infrastructure. The area hosts government offices, traditional markets, and several established hotels. Escort services here cater to both local executives and visitors exploring Vijayawada\'s traditional side.' },
+      { type: 'h2', text: 'Railway Station Area' },
+      { type: 'p', text: 'Vijayawada Junction is one of India\'s busiest railway stations. The surrounding area has multiple hotels catering to travelers. Our escort service near the railway station specializes in swift coordination for arriving travelers with minimal wait times.' },
+      { type: 'h2', text: 'Gannavaram — Airport Corridor' },
+      { type: 'p', text: 'Gannavaram Airport serves as the gateway for air travelers. Hotels along the airport road and the Gannavaram-Vijayawada corridor offer premium stays. We coordinate companionship for executives flying in with pre-arrival booking options.' },
+      { type: 'h2', text: 'Hotel & Resort Zones' },
+      { type: 'p', text: 'Beyond specific neighborhoods, we serve all premium hotels, resorts, and service apartments across Vijayawada. Whether you are at a business hotel or luxury resort, our companions can be coordinated to any venue in the city.' },
+    ],
+    relatedPosts: ['hotel-booking-guide-travelers-vijayawada', 'how-to-book-escort-service-vijayawada'],
+  },
 };
 
 export async function generateStaticParams() {
@@ -123,6 +231,13 @@ export async function generateMetadata({ params }) {
       description: post.metaDesc,
       url: `${SITE_URL}/blog/${slug}`,
       type: 'article',
+      publishedTime: post.date,
+      authors: ['Vijayawada Escorts'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.metaDesc,
     },
   };
 }
@@ -146,8 +261,27 @@ export default async function BlogPost({ params }) {
     "headline": post.title,
     "description": post.metaDesc,
     "datePublished": post.date,
-    "author": { "@type": "Organization", "name": "Vijayawada Escorts" },
-    "publisher": { "@type": "Organization", "name": "Vijayawada Escorts" },
+    "dateModified": post.date,
+    "url": `${SITE_URL}/blog/${slug}`,
+    "author": {
+      "@type": "Organization",
+      "name": "Vijayawada Escorts",
+      "url": SITE_URL
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vijayawada Escorts",
+      "url": SITE_URL,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/og-image.jpg`
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/blog/${slug}`
+    },
+    "inLanguage": "en-IN"
   };
 
   return (
@@ -173,6 +307,8 @@ export default async function BlogPost({ params }) {
             <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-white mb-4 leading-snug">{post.title}</h1>
             <div className="flex items-center gap-4 text-xs text-[#a0a0b0]">
               <time dateTime={post.date}>{new Date(post.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+              <span className="text-[#a0a0b0]">•</span>
+              <span>By <strong className="text-white/80">Vijayawada Escorts Team</strong></span>
             </div>
           </div>
 

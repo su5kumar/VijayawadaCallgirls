@@ -4,6 +4,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import StickyMobileCTA from '@/components/StickyMobileCTA';
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -38,13 +39,13 @@ export const metadata = {
     siteName: SITE_NAME,
     title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
     description: 'Discover premium companionship experiences in Vijayawada with discreet booking, VIP hospitality, and confidential WhatsApp support available 24/7.',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Premium VIP Companionship Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Premium VIP Companionship Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
     description: 'Premium companionship and VIP hospitality in Vijayawada.',
-    images: ['/og-image.jpg'],
+    images: ['/opengraph-image'],
   },
   alternates: {
     canonical: SITE_URL,
@@ -56,7 +57,7 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Vijayawada Escorts - Premium Companionship",
-    "image": `${SITE_URL}/og-image.jpg`,
+    "image": `${SITE_URL}/opengraph-image`,
     "@id": `${SITE_URL}/#localbusiness`,
     "url": SITE_URL,
     "telephone": "+919892335464",
@@ -92,7 +93,7 @@ export default function RootLayout({ children }) {
     "@type": "Organization",
     "name": SITE_NAME,
     "url": SITE_URL,
-    "logo": `${SITE_URL}/og-image.jpg`,
+    "logo": `${SITE_URL}/opengraph-image`,
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+919892335464",
@@ -115,7 +116,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${manrope.variable} ${playfair.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -131,9 +132,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-[#0b0b0d] text-[#f5f5f7] font-[family-name:var(--font-body)] antialiased">
         <Header />
-        <main>{children}</main>
+        <main className="pb-16 md:pb-0">{children}</main>
         <Footer />
         <FloatingWhatsApp />
+        <StickyMobileCTA />
       </body>
     </html>
   );

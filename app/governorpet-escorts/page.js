@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Escorts Near Governorpet Vijayawada | Discreet Premium Service',
   description: 'Discreet premium escorts near Governorpet, Vijayawada. Elegant companions for business meetings, evening dinners, and private experiences in Governorpet area.',
+  keywords: ['Governorpet escorts', 'escorts near Governorpet', 'call girls Governorpet Vijayawada'],
   alternates: { canonical: `${SITE_URL}/governorpet-escorts` },
   openGraph: {
     title: 'Escorts Near Governorpet Vijayawada',
     description: 'Discreet premium escorts near Governorpet, Vijayawada.',
     url: `${SITE_URL}/governorpet-escorts`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Escorts Near Governorpet Vijayawada',
+    description: 'Discreet premium escorts near Governorpet, Vijayawada.',
   },
 };
 

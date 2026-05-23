@@ -6,12 +6,18 @@ import { MessageCircle, Mail, MapPin, Clock } from 'lucide-react';
 export const metadata = {
   title: 'Contact Us | Premium Escort Service Vijayawada',
   description: 'Contact our premium escort service in Vijayawada. Reach us via WhatsApp for instant booking, email for inquiries, or visit our service areas across Vijayawada.',
+  keywords: ['contact escorts Vijayawada', 'WhatsApp escort booking', 'escort service phone number Vijayawada'],
   alternates: { canonical: `${SITE_URL}/contact` },
   openGraph: {
     title: 'Contact Us | Premium Escort Service Vijayawada',
     description: 'Contact our premium escort service in Vijayawada.',
     url: `${SITE_URL}/contact`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us | Premium Escort Service Vijayawada',
+    description: 'Contact our premium escort service in Vijayawada.',
   },
 };
 

@@ -4,7 +4,19 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Disclaimer',
   description: 'Important disclaimer regarding our premium companionship services in Vijayawada. Please read before using our platform.',
+  keywords: ['disclaimer', 'escort service disclaimer', 'terms Vijayawada escorts'],
   alternates: { canonical: `${SITE_URL}/disclaimer` },
+  openGraph: {
+    title: 'Disclaimer | Vijayawada Escorts',
+    description: 'Important disclaimer regarding our premium companionship services.',
+    url: `${SITE_URL}/disclaimer`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Disclaimer | Vijayawada Escorts',
+    description: 'Important disclaimer regarding our premium companionship services.',
+  },
 };
 
 export default function Disclaimer() {

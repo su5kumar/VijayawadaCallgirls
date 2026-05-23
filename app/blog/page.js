@@ -6,6 +6,7 @@ import { ArrowRight } from 'lucide-react';
 export const metadata = {
   title: 'Blog | Luxury Lifestyle & Premium Companionship Insights',
   description: 'Explore our blog for luxury lifestyle guides, premium hospitality insights, VIP nightlife tips, executive lifestyle content, and privacy guides for discerning individuals.',
+  keywords: ['escort blog Vijayawada', 'luxury lifestyle Vijayawada', 'companionship guides', 'VIP nightlife Vijayawada'],
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
     title: 'Blog | Luxury Lifestyle & Premium Companionship Insights',
@@ -13,9 +14,35 @@ export const metadata = {
     url: `${SITE_URL}/blog`,
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog | Luxury Lifestyle & Premium Companionship Insights',
+    description: 'Luxury lifestyle guides and premium companionship insights.',
+  },
 };
 
 const blogPosts = [
+  {
+    slug: 'how-to-book-escort-service-vijayawada',
+    title: 'How to Book Escort Service in Vijayawada — Complete Guide',
+    excerpt: 'Step-by-step guide on booking premium escort service in Vijayawada. WhatsApp booking, safety tips, what to expect, and discreet coordination explained.',
+    category: 'Booking Guide',
+    date: '2026-05-20',
+  },
+  {
+    slug: 'what-are-independent-escorts-vijayawada',
+    title: 'What Are Independent Escorts in Vijayawada?',
+    excerpt: 'Learn what independent escorts offer — personalized experiences, direct communication, flexibility, and authentic connections without intermediaries.',
+    category: 'Service Guides',
+    date: '2026-05-18',
+  },
+  {
+    slug: 'vip-vs-independent-escorts',
+    title: 'VIP vs Independent Escorts — Which Should You Choose?',
+    excerpt: 'Compare VIP and independent escorts in Vijayawada. Understand differences in experience, personalization, and service style to make the right choice.',
+    category: 'Comparison Guide',
+    date: '2026-05-16',
+  },
   {
     slug: 'luxury-lifestyle-vijayawada',
     title: 'The Ultimate Guide to Luxury Lifestyle in Vijayawada',
@@ -24,11 +51,25 @@ const blogPosts = [
     date: '2026-05-15',
   },
   {
+    slug: 'hotel-booking-guide-travelers-vijayawada',
+    title: 'Hotel Booking Guide for Travelers in Vijayawada',
+    excerpt: 'Complete hotel guide for travelers visiting Vijayawada. Best hotels, discreet booking tips, and premium accommodation recommendations.',
+    category: 'Travel Guide',
+    date: '2026-05-12',
+  },
+  {
     slug: 'premium-hospitality-experiences',
     title: 'Premium Hospitality: What Makes Vijayawada Special',
     excerpt: 'An insider look at Vijayawada\'s premium hospitality landscape — hotels, dining, and exclusive services that define luxury in Andhra Pradesh.',
     category: 'Premium Hospitality',
     date: '2026-05-10',
+  },
+  {
+    slug: 'which-areas-vijayawada-escort-services',
+    title: 'Which Areas in Vijayawada Have Escort Services?',
+    excerpt: 'Complete guide to escort service areas — Benz Circle, MG Road, Governorpet, Railway Station, Gannavaram, and all premium locations.',
+    category: 'Local SEO Guide',
+    date: '2026-05-08',
   },
   {
     slug: 'vip-nightlife-guide-vijayawada',

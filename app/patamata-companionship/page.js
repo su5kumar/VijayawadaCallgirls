@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Patamata Companionship | Premium Escorts Patamata Vijayawada',
   description: 'Premium companionship in Patamata, Vijayawada. Luxury escorts for residential zones, upscale communities, and private experiences in the Patamata area.',
+  keywords: ['Patamata escorts', 'escorts near Patamata', 'call girls Patamata Vijayawada', 'companionship Patamata'],
   alternates: { canonical: `${SITE_URL}/patamata-companionship` },
   openGraph: {
     title: 'Patamata Companionship | Premium Escorts Vijayawada',
     description: 'Premium companionship in Patamata, Vijayawada.',
     url: `${SITE_URL}/patamata-companionship`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Patamata Companionship | Premium Escorts Vijayawada',
+    description: 'Premium companionship in Patamata, Vijayawada.',
   },
 };
 

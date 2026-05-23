@@ -3,11 +3,12 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
 import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
-import { SITE_URL } from '@/lib/constants';
+import { SITE_URL, FAQ_ITEMS } from '@/lib/constants';
 
 export const metadata = {
   title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
   description: 'Experience elite Vijayawada escorts service with verified companions, luxury hospitality, and completely confidential booking. Available 24/7 via WhatsApp for premium experiences.',
+  keywords: ['Vijayawada escorts', 'escorts in Vijayawada', 'escort service Vijayawada', 'premium escorts Vijayawada', 'Vijayawada companionship'],
   alternates: { canonical: `${SITE_URL}/vijayawada-escorts` },
   openGraph: {
     title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
@@ -15,11 +16,28 @@ export const metadata = {
     url: `${SITE_URL}/vijayawada-escorts`,
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
+    description: 'Experience elite Vijayawada escorts with verified companions and luxury hospitality.',
+  },
 };
 
 export default function VijayawadaEscorts() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": FAQ_ITEMS.slice(0, 5).map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  };
+
   return (
     <div className="pt-20">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[
           { name: 'Home', href: '/' },

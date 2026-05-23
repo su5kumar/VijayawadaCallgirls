@@ -8,12 +8,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
   description: 'Experience exclusive VIP escorts in Vijayawada. Ultra-premium companionship for high-net-worth individuals, corporate executives, and distinguished travelers seeking the finest.',
+  keywords: ['VIP escorts Vijayawada', 'elite escorts Vijayawada', 'premium VIP companionship', 'luxury escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/vip-escorts-vijayawada` },
   openGraph: {
     title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
     description: 'Exclusive VIP escorts for distinguished individuals in Vijayawada.',
     url: `${SITE_URL}/vip-escorts-vijayawada`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
+    description: 'Exclusive VIP escorts for distinguished individuals in Vijayawada.',
   },
 };
 

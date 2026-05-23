@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
   description: 'Meet genuine independent escorts in Vijayawada. Self-managed, professional companions offering authentic and personalized companionship experiences with direct communication.',
+  keywords: ['independent escorts Vijayawada', 'self-managed escorts', 'independent call girls Vijayawada', 'genuine escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/independent-escorts-vijayawada` },
   openGraph: {
     title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
     description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
     url: `${SITE_URL}/independent-escorts-vijayawada`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
+    description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
   },
 };
 

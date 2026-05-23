@@ -23,14 +23,14 @@ const locations = [
     description: 'Luxury lifestyle experiences in Patamata\'s premium residential and hospitality zones.',
   },
   {
-    name: 'Railway Station Area',
-    slug: 'vijayawada-escorts',
-    description: 'Convenient companion services for travelers near Vijayawada Junction with swift coordination.',
+    name: 'Railway Station',
+    slug: 'railway-station-escorts-vijayawada',
+    description: 'Swift companion coordination for travelers arriving at Vijayawada Junction with 24/7 availability.',
   },
   {
-    name: 'Hotel & Business Districts',
-    slug: 'luxury-companionship',
-    description: 'Executive companionship across all premium hotels, resorts, and corporate venues in Vijayawada.',
+    name: 'Gannavaram Airport',
+    slug: 'gannavaram-escorts',
+    description: 'Airport area companionship for air travelers and executives with pre-arrival booking coordination.',
   },
 ];
 

@@ -4,7 +4,19 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Privacy Policy',
   description: 'Our privacy policy outlines how we collect, protect, and handle your personal information when using our premium escort service in Vijayawada.',
+  keywords: ['privacy policy', 'escort service privacy', 'data protection Vijayawada escorts'],
   alternates: { canonical: `${SITE_URL}/privacy-policy` },
+  openGraph: {
+    title: 'Privacy Policy | Vijayawada Escorts',
+    description: 'How we protect your privacy and personal information.',
+    url: `${SITE_URL}/privacy-policy`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy | Vijayawada Escorts',
+    description: 'How we protect your privacy and personal information.',
+  },
 };
 
 export default function PrivacyPolicy() {

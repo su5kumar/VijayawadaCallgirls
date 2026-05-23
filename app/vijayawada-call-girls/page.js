@@ -7,12 +7,18 @@ import { SITE_URL } from '@/lib/constants';
 export const metadata = {
   title: 'Vijayawada Call Girls | Verified Premium Companions',
   description: 'Connect with verified Vijayawada call girls for premium companionship experiences. Professional, discreet, and elegant service with instant WhatsApp booking available 24/7.',
+  keywords: ['Vijayawada call girls', 'call girls in Vijayawada', 'call girl Vijayawada', 'verified call girls', 'premium companions Vijayawada'],
   alternates: { canonical: `${SITE_URL}/vijayawada-call-girls` },
   openGraph: {
     title: 'Vijayawada Call Girls | Verified Premium Companions',
     description: 'Connect with verified call girls in Vijayawada for premium companionship.',
     url: `${SITE_URL}/vijayawada-call-girls`,
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Vijayawada Call Girls | Verified Premium Companions',
+    description: 'Connect with verified call girls in Vijayawada for premium companionship.',
   },
 };
 

@@ -5,13 +5,19 @@ export default function InternalLinks({ title = 'Explore More', links }) {
   const defaultLinks = [
     { label: 'Premium companionship services', href: '/vijayawada-escorts' },
     { label: 'VIP escorts Vijayawada', href: '/vip-escorts-vijayawada' },
+    { label: 'Independent escorts Vijayawada', href: '/independent-escorts-vijayawada' },
+    { label: 'Hotel escort service', href: '/hotel-escort-service-vijayawada' },
+    { label: '24/7 escorts availability', href: '/24-7-escorts-vijayawada' },
     { label: 'Luxury companionship', href: '/luxury-companionship' },
-    { label: 'Discreet WhatsApp booking', href: '/whatsapp-booking' },
-    { label: 'Executive hospitality', href: '/premium-models' },
     { label: 'Benz Circle companions', href: '/benz-circle-escorts' },
-    { label: 'MG Road Vijayawada guide', href: '/mg-road-vijayawada' },
+    { label: 'MG Road Vijayawada', href: '/mg-road-vijayawada' },
+    { label: 'Governorpet escorts', href: '/governorpet-escorts' },
+    { label: 'Railway Station area', href: '/railway-station-escorts-vijayawada' },
+    { label: 'Gannavaram airport escorts', href: '/gannavaram-escorts' },
     { label: 'Luxury lifestyle blog', href: '/blog' },
     { label: 'Frequently asked questions', href: '/faq' },
+    { label: 'Discreet WhatsApp booking', href: '/whatsapp-booking' },
+    { label: 'Contact us', href: '/contact' },
   ];
 
   const displayLinks = links || defaultLinks;
