@@ -5,6 +5,11 @@ Disallow: /api/
 Disallow: /studio/
 Disallow: /test
 
+# Bing
+User-agent: bingbot
+Allow: /
+Crawl-delay: 1
+
 # Host
 Host: https://www.vijayawadacallgirls.online
 
