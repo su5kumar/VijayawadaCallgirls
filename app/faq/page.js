@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Common questions about premium escort service in Vijayawada.',
     url: `${SITE_URL}/faq`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'FAQ - Vijayawada Escorts' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'FAQ | Frequently Asked Questions',
     description: 'Common questions about premium escort service in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

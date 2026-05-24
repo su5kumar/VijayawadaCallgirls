@@ -22,11 +22,13 @@ export const metadata = {
     description: 'Premium escorts near Vijayawada Railway Station with fast coordination for travelers.',
     url: `${SITE_URL}/railway-station-escorts-vijayawada`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Escorts Near Vijayawada Railway Station' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Escorts Near Vijayawada Railway Station | Quick & Discreet',
     description: 'Premium escorts near Vijayawada Railway Station with fast coordination for travelers.',
+    images: ['/opengraph-image'],
   },
 };
 

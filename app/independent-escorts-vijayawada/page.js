@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
     url: `${SITE_URL}/independent-escorts-vijayawada`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Independent Escorts Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
     description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

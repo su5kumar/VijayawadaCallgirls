@@ -21,11 +21,13 @@ export const metadata = {
     description: 'Premium escorts near Gannavaram Airport for air travelers and executives.',
     url: `${SITE_URL}/gannavaram-escorts`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Gannavaram Escorts - Airport Area Companionship' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gannavaram Escorts | Airport Area Companionship',
     description: 'Premium escorts near Gannavaram Airport for air travelers and executives.',
+    images: ['/opengraph-image'],
   },
 };
 

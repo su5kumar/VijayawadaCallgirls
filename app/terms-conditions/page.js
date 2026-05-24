@@ -11,11 +11,13 @@ export const metadata = {
     description: 'Terms and conditions for our premium companionship service.',
     url: `${SITE_URL}/terms-conditions`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Terms & Conditions - Vijayawada Escorts' }],
   },
   twitter: {
     card: 'summary',
     title: 'Terms & Conditions | Vijayawada Escorts',
     description: 'Terms and conditions for our premium companionship service.',
+    images: ['/opengraph-image'],
   },
 };
 

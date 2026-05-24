@@ -233,11 +233,13 @@ export async function generateMetadata({ params }) {
       type: 'article',
       publishedTime: post.date,
       authors: ['Vijayawada Escorts'],
+      images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: post.title }],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.metaDesc,
+      images: ['/opengraph-image'],
     },
   };
 }

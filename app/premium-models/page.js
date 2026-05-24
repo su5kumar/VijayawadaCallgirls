@@ -15,11 +15,13 @@ export const metadata = {
     description: 'Elite model companions for high-profile events in Vijayawada.',
     url: `${SITE_URL}/premium-models`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Premium Models Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Premium Models Vijayawada | Elite Model Companions',
     description: 'Elite model companions for high-profile events in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

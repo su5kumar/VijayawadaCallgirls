@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Refined luxury companionship for executive lifestyles in Vijayawada.',
     url: `${SITE_URL}/luxury-companionship`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Luxury Companionship Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Luxury Companionship Vijayawada | Executive Lifestyle Experiences',
     description: 'Refined luxury companionship for executive lifestyles in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

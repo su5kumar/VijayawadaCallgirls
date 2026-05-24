@@ -13,11 +13,13 @@ export const metadata = {
     description: 'Contact our premium escort service in Vijayawada.',
     url: `${SITE_URL}/contact`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Contact Vijayawada Escorts' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Contact Us | Premium Escort Service Vijayawada',
     description: 'Contact our premium escort service in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

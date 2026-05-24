@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Discreet premium escorts near Governorpet, Vijayawada.',
     url: `${SITE_URL}/governorpet-escorts`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Escorts Near Governorpet Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Escorts Near Governorpet Vijayawada',
     description: 'Discreet premium escorts near Governorpet, Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

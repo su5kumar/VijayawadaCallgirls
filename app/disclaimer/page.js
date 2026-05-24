@@ -11,11 +11,13 @@ export const metadata = {
     description: 'Important disclaimer regarding our premium companionship services.',
     url: `${SITE_URL}/disclaimer`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Escorts Disclaimer' }],
   },
   twitter: {
     card: 'summary',
     title: 'Disclaimer | Vijayawada Escorts',
     description: 'Important disclaimer regarding our premium companionship services.',
+    images: ['/opengraph-image'],
   },
 };
 

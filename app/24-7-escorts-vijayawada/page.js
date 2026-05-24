@@ -23,11 +23,13 @@ export const metadata = {
     description: '24 hour escorts service in Vijayawada available round the clock with instant booking.',
     url: `${SITE_URL}/24-7-escorts-vijayawada`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: '24/7 Escorts Service Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: '24/7 Escorts Service Vijayawada | Available Any Hour',
     description: '24 hour escorts service in Vijayawada available round the clock with instant booking.',
+    images: ['/opengraph-image'],
   },
 };
 

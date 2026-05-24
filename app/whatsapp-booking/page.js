@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
     url: `${SITE_URL}/whatsapp-booking`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'WhatsApp Booking - Instant Escort Booking Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
     description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 

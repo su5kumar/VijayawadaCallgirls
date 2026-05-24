@@ -21,11 +21,13 @@ export const metadata = {
     description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
     url: SITE_URL,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Escorts - Premium VIP Companionship' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
     description: 'Premium Vijayawada escorts with verified companions and discreet booking 24/7.',
+    images: ['/opengraph-image'],
   },
 };
 

@@ -11,11 +11,13 @@ export const metadata = {
     description: 'How we protect your privacy and personal information.',
     url: `${SITE_URL}/privacy-policy`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Privacy Policy - Vijayawada Escorts' }],
   },
   twitter: {
     card: 'summary',
     title: 'Privacy Policy | Vijayawada Escorts',
     description: 'How we protect your privacy and personal information.',
+    images: ['/opengraph-image'],
   },
 };
 

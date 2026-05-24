@@ -13,11 +13,13 @@ export const metadata = {
     description: 'Luxury lifestyle guides and premium companionship insights.',
     url: `${SITE_URL}/blog`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Blog - Vijayawada Escorts' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Blog | Luxury Lifestyle & Premium Companionship Insights',
     description: 'Luxury lifestyle guides and premium companionship insights.',
+    images: ['/opengraph-image'],
   },
 };
 

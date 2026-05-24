@@ -14,11 +14,13 @@ export const metadata = {
     description: 'Premium escorts service near Benz Circle, Vijayawada.',
     url: `${SITE_URL}/benz-circle-escorts`,
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Escorts Near Benz Circle Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Escorts Near Benz Circle Vijayawada',
     description: 'Premium escorts service near Benz Circle, Vijayawada.',
+    images: ['/opengraph-image'],
   },
 };
 
