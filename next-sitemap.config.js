@@ -9,9 +9,6 @@ module.exports = {
     policies: [
       { userAgent: '*', allow: '/', disallow: ['/api/'] },
     ],
-    additionalSitemaps: [
-      'https://www.vijayawadacallgirls.online/sitemap.xml',
-    ],
   },
   transform: async (config, path) => {
     const highPriority = ['/', '/vijayawada-escorts', '/vijayawada-call-girls', '/vip-escorts-vijayawada', '/independent-escorts-vijayawada', '/hotel-escort-service-vijayawada', '/24-7-escorts-vijayawada'];

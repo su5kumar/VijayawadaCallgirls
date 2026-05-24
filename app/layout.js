@@ -26,7 +26,7 @@ const playfair = Playfair_Display({
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
+    default: 'Vijayawada Escorts Service | Luxury VIP Companionship',
     template: '%s | Vijayawada Escorts',
   },
   description: 'Discover premium companionship experiences in Vijayawada with discreet booking, VIP hospitality, elegant lifestyle experiences, and confidential WhatsApp support available 24/7.',
@@ -38,13 +38,13 @@ export const metadata = {
     locale: 'en_IN',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
+    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
     description: 'Discover premium companionship experiences in Vijayawada with discreet booking, VIP hospitality, and confidential WhatsApp support available 24/7.',
     images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Premium VIP Companionship Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
+    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
     description: 'Premium companionship and VIP hospitality in Vijayawada.',
     images: ['/opengraph-image'],
   },
