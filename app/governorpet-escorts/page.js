@@ -2,6 +2,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
 import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
+import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
@@ -83,7 +84,32 @@ export default function GovernorpetEscorts() {
         </div>
       </section>
 
+      {/* Location Map */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-5 md:px-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl md:text-2xl font-bold text-white mb-4">
+            Governorpet, Vijayawada — Service Area
+          </h2>
+          <p className="text-[#a0a0b0] text-sm mb-6">
+            We cover all of Governorpet and surrounding areas including Eluru Road, Besant Road, and One Town. Hotel visits and outcalls available across this zone.
+          </p>
+          <div className="rounded-xl overflow-hidden border border-white/10 aspect-video">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15290.87!2d80.6180!3d16.5150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff9e4f9a1c7%3A0x73e3a2a5c0c5b2d1!2sGovernorpet%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Governorpet, Vijayawada location map"
+            />
+          </div>
+        </div>
+      </section>
+
       <WhatsAppCTA />
+      <RelatedAreas currentSlug="governorpet-escorts" />
       <FAQ subtitle="Questions about escorts near Governorpet" />
       <InternalLinks />
     </div>

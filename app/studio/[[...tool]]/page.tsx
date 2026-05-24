@@ -9,10 +9,16 @@
 
 import { NextStudio } from 'next-sanity/studio'
 import config from '../../../sanity.config'
+import { viewport as studioViewport } from 'next-sanity/studio'
 
 export const dynamic = 'force-static'
 
-export { metadata, viewport } from 'next-sanity/studio'
+export const viewport = studioViewport
+
+export const metadata = {
+  title: 'Studio',
+  robots: { index: false, follow: false },
+}
 
 export default function StudioPage() {
   return <NextStudio config={config} />

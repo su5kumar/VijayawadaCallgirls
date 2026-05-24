@@ -22,40 +22,8 @@ const reviews = [
 ];
 
 export default function Testimonials() {
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Vijayawada Escorts",
-    "image": "https://www.vijayawadacallgirls.online/opengraph-image",
-    "telephone": "+919892335464",
-    "priceRange": "$$$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Benz Circle, Ring Road",
-      "addressLocality": "Vijayawada",
-      "postalCode": "520010",
-      "addressRegion": "Andhra Pradesh",
-      "addressCountry": "IN"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "bestRating": "5",
-      "worstRating": "1",
-      "reviewCount": "186",
-      "ratingCount": "186"
-    },
-    "review": reviews.map(r => ({
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": r.stars, "bestRating": "5" },
-      "author": { "@type": "Person", "name": r.author },
-      "reviewBody": r.text
-    }))
-  };
-
   return (
     <section className="py-20 md:py-28 relative">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f] to-[#0b0b0d]" />
       <div className="relative z-10 max-w-7xl mx-auto px-5 md:px-8">
         <div className="text-center mb-14">

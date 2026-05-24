@@ -3,27 +3,27 @@ import { Wine, Plane, Star, Users } from 'lucide-react';
 const experiences = [
   {
     icon: <Wine size={28} />,
-    title: 'Corporate & Social Galas',
-    description: 'Exude presence with a charming, intellectually stimulating companion for luxury galas, award ceremonies, and high-profile networking events.',
-    features: ['Business etiquette vetted', 'Elegant wardrobe adaptability', 'Multi-lingual companions'],
+    title: 'Corporate & Social Events',
+    description: 'Need a plus-one for a gala, awards night, or networking event? Our companions are sharp, well-dressed, and know how to work a room without making it weird.',
+    features: ['Business etiquette vetted', 'Wardrobe-appropriate', 'Hindi, English & Telugu'],
   },
   {
     icon: <Plane size={28} />,
     title: 'Travel & Leisure',
-    description: 'Enhance your exploration with a refined companion for luxury resorts, premium local sights, and weekend leisure experiences across Vijayawada.',
-    features: ['Elite travel support', 'Discreet local guidance', 'Custom itineraries'],
+    description: 'Whether you\'re here for a weekend or a work trip, having someone who actually knows the city makes everything better. Think local guide meets great company.',
+    features: ['Local knowledge', 'Flexible schedules', 'Custom itineraries'],
   },
   {
     icon: <Star size={28} />,
-    title: 'VIP Nightlife & Dining',
-    description: 'Create unforgettable evenings with polished companionship for fine dining, exclusive club visits, and premium social gatherings.',
-    features: ['Fast WhatsApp coordination', 'VIP venue access', 'Luxury hospitality standards'],
+    title: 'Nightlife & Fine Dining',
+    description: 'Going out alone isn\'t everyone\'s thing. Our companions join you for great restaurants, rooftop lounges, or wherever the night takes you — no awkwardness, just good energy.',
+    features: ['WhatsApp coordination', 'Know the best spots', 'Evening-ready'],
   },
   {
     icon: <Users size={28} />,
     title: 'Executive Companionship',
-    description: 'Professional companions for business travelers seeking elegant, articulate partners for corporate dinners and executive events.',
-    features: ['Corporate event ready', 'Confidential arrangements', 'Personalized matching'],
+    description: 'For business travelers who want intelligent, polished company during dinners or downtime. Someone you\'d actually enjoy talking to — not just a pretty face.',
+    features: ['Corporate-event ready', 'Completely confidential', 'Matched to your vibe'],
   },
 ];
 
@@ -37,10 +37,10 @@ export default function PremiumExperiences() {
         <div className="text-center mb-14">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-3">Premium Experiences</span>
           <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-white mb-4">
-            Luxury Companionship Experiences
+            How Clients Actually Use Our Service
           </h2>
           <p className="max-w-2xl mx-auto text-[#a0a0b0] text-base">
-            Bespoke experiences crafted for those who appreciate sophistication, discretion, and the finest social companionship in Vijayawada.
+            Different people, different occasions. Here&apos;s how most of our clients book — and what kind of experience works for each situation.
           </p>
         </div>
 

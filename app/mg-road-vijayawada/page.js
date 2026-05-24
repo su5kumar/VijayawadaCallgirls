@@ -2,6 +2,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
 import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
+import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
@@ -85,6 +86,7 @@ export default function MGRoadEscorts() {
       </section>
 
       <WhatsAppCTA />
+      <RelatedAreas currentSlug="mg-road-vijayawada" />
       <FAQ subtitle="Questions about escorts near MG Road, Vijayawada" />
       <InternalLinks />
     </div>

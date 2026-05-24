@@ -5,32 +5,32 @@ const locations = [
   {
     name: 'Benz Circle',
     slug: 'benz-circle-escorts',
-    description: 'Premium companionship near Vijayawada\'s most upscale commercial hub with luxury hotels and fine dining.',
+    description: 'Our busiest area — right in the middle of the best hotels and restaurants. Most evening bookings happen here.',
   },
   {
     name: 'MG Road',
     slug: 'mg-road-vijayawada',
-    description: 'Elegant escort service in the heart of Vijayawada\'s vibrant business and entertainment district.',
+    description: 'The commercial heartbeat of Vijayawada. Great for dinner dates, business events, or just a night out.',
   },
   {
     name: 'Governorpet',
     slug: 'governorpet-escorts',
-    description: 'Discreet VIP companionship in Governorpet\'s executive business quarter and heritage areas.',
+    description: 'The old business district — quieter, more discreet. Popular with clients who prefer low-key arrangements.',
   },
   {
     name: 'Patamata',
     slug: 'patamata-companionship',
-    description: 'Luxury lifestyle experiences in Patamata\'s premium residential and hospitality zones.',
+    description: 'Upscale residential area with nice hotels nearby. Good for longer bookings and relaxed evenings.',
   },
   {
     name: 'Railway Station',
     slug: 'railway-station-escorts-vijayawada',
-    description: 'Swift companion coordination for travelers arriving at Vijayawada Junction with 24/7 availability.',
+    description: 'Just arrived by train? We coordinate companions within 30 minutes of the Junction. 24/7 availability here.',
   },
   {
     name: 'Gannavaram Airport',
     slug: 'gannavaram-escorts',
-    description: 'Airport area companionship for air travelers and executives with pre-arrival booking coordination.',
+    description: 'Landing at the airport? Pre-book before you land and have someone ready by the time you check in.',
   },
 ];
 
@@ -42,10 +42,10 @@ export default function LocationSEO() {
         <div className="text-center mb-14">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-3">Service Areas</span>
           <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-white mb-4">
-            Premium Escorts Across Vijayawada
+            We Cover All of Vijayawada
           </h2>
           <p className="max-w-2xl mx-auto text-[#a0a0b0] text-base">
-            We serve all premium locations in Vijayawada with discreet, professional companionship services tailored to each area.
+            Wherever you are in the city, we&apos;re probably already nearby. Here&apos;s where most of our clients book from.
           </p>
         </div>
 

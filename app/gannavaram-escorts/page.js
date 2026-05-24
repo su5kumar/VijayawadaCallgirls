@@ -1,6 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
 import InternalLinks from '@/components/InternalLinks';
+import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
 import { generateServiceSchema, generateFAQSchema } from '@/lib/schema';
 
@@ -140,6 +141,7 @@ export default function GannavaramEscorts() {
       </section>
 
       <WhatsAppCTA />
+      <RelatedAreas currentSlug="gannavaram-escorts" />
       <InternalLinks />
     </div>
   );

@@ -1,5 +1,9 @@
 import { client } from "@/lib/sanity";
 
+export const metadata = {
+  robots: { index: false, follow: false },
+};
+
 async function getPosts() {
   return client.fetch(`
     *[_type == "post"]{

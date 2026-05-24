@@ -29,7 +29,7 @@ export const metadata = {
     default: 'Vijayawada Escorts Service | Premium VIP Companionship',
     template: '%s | Vijayawada Escorts',
   },
-  description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
+  description: 'Vijayawada\'s most trusted escort service. Verified companions, instant WhatsApp booking, hotel visits, and 24/7 availability. Real profiles, zero drama, complete privacy.',
   keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada'],
   authors: [{ name: SITE_NAME }],
   robots: { index: true, follow: true },
@@ -84,11 +84,6 @@ export default function RootLayout({ children }) {
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
       "closes": "23:59"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "186"
     }
   };
 
@@ -103,8 +98,7 @@ export default function RootLayout({ children }) {
       "telephone": "+919892335464",
       "contactType": "customer service",
       "availableLanguage": ["English", "Hindi", "Telugu"]
-    },
-    "sameAs": []
+    }
   };
 
   const websiteSchema = {
@@ -113,16 +107,46 @@ export default function RootLayout({ children }) {
     "name": SITE_NAME,
     "url": SITE_URL,
     "inLanguage": "en-IN",
-    "description": "Premium companionship, VIP hospitality, local lifestyle guidance, and confidential booking assistance in Vijayawada."
+    "description": "Premium companionship, VIP hospitality, local lifestyle guidance, and confidential booking assistance in Vijayawada.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${SITE_URL}/blog?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Premium Companionship Service",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": `${SITE_URL}/#localbusiness`
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Vijayawada",
+      "addressRegion": "Andhra Pradesh",
+      "addressCountry": "IN"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Escort Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "VIP Escorts", "url": `${SITE_URL}/vip-escorts-vijayawada` } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Independent Escorts", "url": `${SITE_URL}/independent-escorts-vijayawada` } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotel Escort Service", "url": `${SITE_URL}/hotel-escort-service-vijayawada` } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "24/7 Escorts", "url": `${SITE_URL}/24-7-escorts-vijayawada` } }
+      ]
+    }
   };
 
   return (
     <html lang="en" className={`${manrope.variable} ${playfair.variable}`}>
       <head>
-        <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <Script id="google-analytics" strategy="lazyOnload">
           {`
             function loadGA() {
@@ -144,7 +168,6 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <script
           type="application/ld+json"
@@ -157,6 +180,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
       </head>
       <body className="bg-[#0b0b0d] text-[#f5f5f7] font-[family-name:var(--font-body)] antialiased">

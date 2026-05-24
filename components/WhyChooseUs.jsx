@@ -3,33 +3,33 @@ import { ShieldCheck, MessageSquare, Crown, Sparkles, Clock, Lock } from 'lucide
 const features = [
   {
     icon: <Lock size={24} />,
-    title: 'Discreet Booking Process',
-    description: 'End-to-end encrypted communication ensures your privacy is maintained throughout the booking experience.',
+    title: 'Your Privacy Comes First',
+    description: 'WhatsApp encryption, no data stored, no follow-up calls. What happens between you and us stays between you and us.',
   },
   {
     icon: <MessageSquare size={24} />,
-    title: 'Fast WhatsApp Support',
-    description: 'Instant response via our dedicated WhatsApp concierge for seamless coordination and quick confirmations.',
+    title: '5-Minute Response Time',
+    description: 'Message us on WhatsApp and get a real reply within minutes — not an automated bot, an actual person who can help.',
   },
   {
     icon: <Crown size={24} />,
-    title: 'Premium Hospitality',
-    description: 'Five-star hospitality standards with vetted companions who embody elegance, grace, and sophistication.',
+    title: 'Companions Worth Your Time',
+    description: 'Every profile is verified, photos are recent, and our companions know how to make you feel comfortable from the first minute.',
   },
   {
     icon: <Sparkles size={24} />,
-    title: 'Luxury Experiences',
-    description: 'Curated experiences for fine dining, corporate events, travel companionship, and exclusive social gatherings.',
+    title: 'More Than Just a Booking',
+    description: 'Dinner dates, event plus-ones, hotel visits, or just good company for the evening — we match you with someone who fits the occasion.',
   },
   {
     icon: <ShieldCheck size={24} />,
-    title: 'Professional Coordination',
-    description: 'Dedicated concierge team handles every detail from profile matching to logistics with absolute precision.',
+    title: 'We Handle the Logistics',
+    description: 'Tell us when and where. We take care of matching, scheduling, and coordination so you don\'t have to manage anything.',
   },
   {
     icon: <Clock size={24} />,
-    title: 'Private VIP Assistance',
-    description: 'Round-the-clock availability with personalized attention for high-profile clients and executive travelers.',
+    title: 'Available Any Hour',
+    description: 'Whether it\'s 10pm or 3am — our team is online and can arrange companionship within 30-60 minutes across Vijayawada.',
   },
 ];
 

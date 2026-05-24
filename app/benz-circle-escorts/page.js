@@ -2,6 +2,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
 import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
+import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
@@ -85,6 +86,7 @@ export default function BenzCircleEscorts() {
       </section>
 
       <WhatsAppCTA />
+      <RelatedAreas currentSlug="benz-circle-escorts" />
       <FAQ subtitle="Questions about escorts near Benz Circle" />
       <InternalLinks />
     </div>

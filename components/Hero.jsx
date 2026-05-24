@@ -33,7 +33,7 @@ export default function Hero() {
 
         {/* Subtitle — no animation wrapper to avoid LCP render delay */}
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#a0a0b0] leading-relaxed mb-10">
-          Trusted platform for premium companionship and luxury hospitality experiences in Vijayawada — designed for business travelers, tourists, and professionals seeking sophisticated social company.
+          Vijayawada&apos;s most trusted escort service. Verified companions, instant WhatsApp booking, and complete privacy — whether you&apos;re here on business or just want a great evening with someone worth your time.
         </p>
 
         {/* CTAs */}

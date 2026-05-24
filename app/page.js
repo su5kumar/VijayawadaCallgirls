@@ -13,12 +13,12 @@ import { FAQ_ITEMS, SITE_URL } from '@/lib/constants';
 
 export const metadata = {
   title: 'Vijayawada Escorts Service | Premium VIP Companionship',
-  description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
+  description: 'Vijayawada\'s most trusted escort service. Verified companions, instant WhatsApp booking, hotel visits, and 24/7 availability. Real profiles, zero drama, complete privacy.',
   keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada', 'private concierge Vijayawada'],
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: 'Vijayawada Escorts Service | Premium VIP Companionship',
-    description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
+    description: 'Vijayawada\'s most trusted escort service. Verified companions, instant WhatsApp booking, hotel visits, and 24/7 availability.',
     url: SITE_URL,
     type: 'website',
     images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Escorts - Premium VIP Companionship' }],
