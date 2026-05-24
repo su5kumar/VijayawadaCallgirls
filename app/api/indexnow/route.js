@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const INDEXNOW_KEY = 'b31c4b1e62a04c7f9dbd3e8a5f6c2d91';
+const INDEXNOW_KEY = 'faa50516eb1b419b97ffc33030290cca';
 const HOST = 'https://www.vijayawadacallgirls.online';
 
 export async function POST(request) {
