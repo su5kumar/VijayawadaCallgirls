@@ -12,7 +12,7 @@ export default function StickyMobileCTA() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Book via WhatsApp"
-          className="flex-1 flex items-center justify-center gap-2 bg-[#25D366] text-white font-semibold text-sm py-3 rounded-lg hover:bg-[#20bd5a] transition-colors"
+          className="flex-1 flex items-center justify-center gap-2 bg-[#128C7E] text-white font-semibold text-sm py-3 rounded-lg hover:bg-[#0e7a6e] transition-colors"
         >
           <MessageCircle size={16} />
           WhatsApp Now

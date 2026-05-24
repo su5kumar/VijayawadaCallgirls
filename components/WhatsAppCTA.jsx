@@ -28,7 +28,7 @@ export default function WhatsAppCTA() {
               <MessageCircle size={16} /> Chat on WhatsApp
             </a>
             <a href="/whatsapp-booking" className="btn-outline px-8 py-4 text-sm">
-              Learn More <ArrowRight size={16} />
+              WhatsApp Booking Details <ArrowRight size={16} />
             </a>
           </div>
         </div>

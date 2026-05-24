@@ -1,7 +1,12 @@
 import { Crown, Shield, ArrowRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { WHATSAPP_URL } from '@/lib/constants';
-import MotionReveal from '@/components/MotionReveal';
+
+const MotionReveal = dynamic(() => import('@/components/MotionReveal'), {
+  ssr: false,
+  loading: ({ children }) => <div>{children}</div>,
+});
 
 export default function Hero() {
   return (
@@ -27,12 +32,10 @@ export default function Hero() {
           </h1>
         </MotionReveal>
 
-        {/* Subtitle */}
-        <MotionReveal delay={0.23} y={24}>
-          <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#a0a0b0] leading-relaxed mb-10">
-            Premium private companionship experiences designed for sophisticated lifestyles, luxury hospitality, and discreet social connections in Vijayawada.
-          </p>
-        </MotionReveal>
+        {/* Subtitle — no animation wrapper to avoid LCP render delay */}
+        <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#a0a0b0] leading-relaxed mb-10">
+          Premium private companionship experiences designed for sophisticated lifestyles, luxury hospitality, and discreet social connections in Vijayawada.
+        </p>
 
         {/* CTAs */}
         <MotionReveal delay={0.32} y={18}>

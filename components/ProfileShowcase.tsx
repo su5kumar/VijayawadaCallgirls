@@ -3,9 +3,14 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { BadgeCheck, MapPin, MessageCircle, Sparkles } from 'lucide-react';
 import { WHATSAPP_URL } from '@/lib/constants';
-import MotionReveal from '@/components/MotionReveal';
+
+const MotionReveal = dynamic(() => import('@/components/MotionReveal'), {
+  ssr: false,
+  loading: ({ children }) => <div>{children}</div>,
+});
 
 const filters = ['Featured', 'VIP', 'Fashion', 'Executive'];
 
@@ -134,8 +139,9 @@ export default function ProfileShowcase() {
                     src={profile.image}
                     alt={profile.alt}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 250px"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    quality={75}
                     priority={index < 2}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0d] via-transparent to-transparent opacity-95" />

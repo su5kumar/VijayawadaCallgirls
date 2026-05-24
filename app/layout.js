@@ -116,16 +116,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${manrope.variable} ${playfair.variable}`}>
       <head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-PV7LDJP0WL"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-PV7LDJP0WL');
+            function loadGA() {
+              if (window._gaLoaded) return;
+              window._gaLoaded = true;
+              var s = document.createElement('script');
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=G-PV7LDJP0WL';
+              s.async = true;
+              document.head.appendChild(s);
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              window.gtag = gtag;
+              gtag('js', new Date());
+              gtag('config', 'G-PV7LDJP0WL');
+            }
+            var t = setTimeout(loadGA, 5000);
+            ['scroll','click','touchstart','keydown'].forEach(function(e){
+              document.addEventListener(e, function(){clearTimeout(t);loadGA();}, {once:true,passive:true});
+            });
           `}
         </Script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
