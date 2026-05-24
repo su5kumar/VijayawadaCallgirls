@@ -9,7 +9,6 @@ import { WHATSAPP_URL } from '@/lib/constants';
 
 const MotionReveal = dynamic(() => import('@/components/MotionReveal'), {
   ssr: false,
-  loading: ({ children }) => <div>{children}</div>,
 });
 
 const filters = ['Featured', 'VIP', 'Fashion', 'Executive'];

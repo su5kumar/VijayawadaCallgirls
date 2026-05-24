@@ -5,7 +5,6 @@ import { WHATSAPP_URL } from '@/lib/constants';
 
 const MotionReveal = dynamic(() => import('@/components/MotionReveal'), {
   ssr: false,
-  loading: ({ children }) => <div>{children}</div>,
 });
 
 export default function Hero() {
