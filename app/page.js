@@ -12,20 +12,20 @@ import InternalLinks from '@/components/InternalLinks';
 import { FAQ_ITEMS, SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
-  description: 'Discover premium companionship experiences in Vijayawada with discreet booking, VIP hospitality, elegant lifestyle experiences, and confidential WhatsApp support available 24/7.',
+  title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
+  description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
   keywords: ['Vijayawada escorts', 'call girls Vijayawada', 'escort service Vijayawada', 'VIP escorts', 'premium companionship Vijayawada', 'luxury escorts Vijayawada'],
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
-    description: 'Discover premium companionship experiences in Vijayawada with discreet booking, VIP hospitality, and confidential WhatsApp support available 24/7.',
+    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
+    description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
     url: SITE_URL,
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Luxury Vijayawada Escorts Service | Premium VIP Companionship',
-    description: 'Premium companionship and VIP hospitality in Vijayawada. Discreet booking 24/7.',
+    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
+    description: 'Premium Vijayawada escorts with verified companions and discreet booking 24/7.',
   },
 };
 
