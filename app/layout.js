@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from 'next/script';
 import { Manrope, Playfair_Display } from 'next/font/google';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import Header from '@/components/Header';
@@ -115,6 +116,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${manrope.variable} ${playfair.variable}`}>
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-PV7LDJP0WL"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PV7LDJP0WL');
+          `}
+        </Script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <script

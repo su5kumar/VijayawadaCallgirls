@@ -26,6 +26,17 @@ export default function Testimonials() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Vijayawada Escorts",
+    "image": "https://www.vijayawadacallgirls.online/opengraph-image",
+    "telephone": "+919892335464",
+    "priceRange": "$$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Benz Circle, Ring Road",
+      "addressLocality": "Vijayawada",
+      "postalCode": "520010",
+      "addressRegion": "Andhra Pradesh",
+      "addressCountry": "IN"
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
