@@ -26,11 +26,11 @@ const playfair = Playfair_Display({
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Vijayawada Escorts Service | Luxury VIP Companionship',
+    default: 'Vijayawada Escorts Service | Premium VIP Companionship',
     template: '%s | Vijayawada Escorts',
   },
-  description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
-  keywords: ['Vijayawada escorts', 'Vijayawada escorts service', 'Vijayawada call girls', 'call girls in Vijayawada', 'escort service Vijayawada', 'VIP escorts Vijayawada', 'luxury escorts Vijayawada'],
+  description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
+  keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada'],
   authors: [{ name: SITE_NAME }],
   robots: { index: true, follow: true },
   verification: {

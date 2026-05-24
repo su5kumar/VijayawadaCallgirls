@@ -33,7 +33,7 @@ export default function Hero() {
 
         {/* Subtitle — no animation wrapper to avoid LCP render delay */}
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#a0a0b0] leading-relaxed mb-10">
-          Premium private companionship experiences designed for sophisticated lifestyles, luxury hospitality, and discreet social connections in Vijayawada.
+          Trusted platform for premium companionship and luxury hospitality experiences in Vijayawada — designed for business travelers, tourists, and professionals seeking sophisticated social company.
         </p>
 
         {/* CTAs */}

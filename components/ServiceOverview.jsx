@@ -42,10 +42,10 @@ export default function ServiceOverview() {
         <div className="text-center mb-14">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-3">Our Services</span>
           <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-white mb-4">
-            Premium Escort Services in Vijayawada
+            VIP Hospitality & Social Companion Services
           </h2>
           <p className="max-w-2xl mx-auto text-[#a0a0b0] text-base">
-            From VIP elite experiences to independent companions and discreet hotel visits — discover the companionship service that matches your needs.
+            From elite concierge experiences to independent companions and discreet hotel coordination — find the right social companionship for your lifestyle.
           </p>
         </div>
 

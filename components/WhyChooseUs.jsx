@@ -41,10 +41,10 @@ export default function WhyChooseUs() {
         <div className="text-center mb-14">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-3">Why Choose Us</span>
           <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-white mb-4">
-            Most Trusted Escort Service in Vijayawada
+            Why Choose Our Premium Companionship Platform
           </h2>
           <p className="max-w-2xl mx-auto text-[#a0a0b0] text-base">
-            We redefine premium companionship with unmatched discretion, verified profiles, and luxury-focused experiences tailored for discerning individuals.
+            Privacy, professionalism, and a smooth booking experience — verified profiles, responsive communication, and confidential support for discerning individuals.
           </p>
         </div>
 

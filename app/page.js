@@ -12,21 +12,21 @@ import InternalLinks from '@/components/InternalLinks';
 import { FAQ_ITEMS, SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
-  description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
-  keywords: ['Vijayawada escorts', 'call girls Vijayawada', 'escort service Vijayawada', 'VIP escorts', 'premium companionship Vijayawada', 'luxury escorts Vijayawada'],
+  title: 'Vijayawada Escorts Service | Premium VIP Companionship',
+  description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
+  keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada', 'private concierge Vijayawada'],
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
-    description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
+    title: 'Vijayawada Escorts Service | Premium VIP Companionship',
+    description: 'Discover premium companionship and VIP escort services in Vijayawada with discreet booking, verified profiles, and luxury hospitality experiences available 24/7.',
     url: SITE_URL,
     type: 'website',
     images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Escorts - Premium VIP Companionship' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
-    description: 'Premium Vijayawada escorts with verified companions and discreet booking 24/7.',
+    title: 'Vijayawada Escorts Service | Premium VIP Companionship',
+    description: 'Premium companionship and VIP hospitality in Vijayawada. Discreet booking 24/7.',
     images: ['/opengraph-image'],
   },
 };
