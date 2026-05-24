@@ -7,7 +7,7 @@ import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
   title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
-  description: 'Experience exclusive VIP escorts in Vijayawada. Ultra-premium companionship for high-net-worth individuals, corporate executives, and distinguished travelers seeking the finest.',
+  description: 'Exclusive VIP escorts in Vijayawada. Ultra-premium companionship for executives and distinguished travelers seeking the finest.',
   keywords: ['VIP escorts Vijayawada', 'elite escorts Vijayawada', 'premium VIP companionship', 'luxury escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/vip-escorts-vijayawada` },
   openGraph: {
