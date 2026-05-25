@@ -1,4 +1,12 @@
-# *
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /studio/
+Disallow: /test
+Crawl-delay: 0
+
+# All bots
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -15,3 +23,4 @@ Host: https://www.vijayawadacallgirls.online
 
 # Sitemaps
 Sitemap: https://www.vijayawadacallgirls.online/sitemap.xml
+Sitemap: https://www.vijayawadacallgirls.online/sitemap-0.xml

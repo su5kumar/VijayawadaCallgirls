@@ -1,15 +1,12 @@
 module.exports = {
   siteUrl: 'https://www.vijayawadacallgirls.online',
-  generateRobotsTxt: true,
+  generateRobotsTxt: false, // We manage robots.txt manually
+  generateIndexSitemap: true,
   sitemapSize: 7000,
   changefreq: 'weekly',
   priority: 0.7,
-  exclude: ['/api/*', '/test', '/studio/**'],
-  robotsTxtOptions: {
-    policies: [
-      { userAgent: '*', allow: '/', disallow: ['/api/'] },
-    ],
-  },
+  exclude: ['/api/*', '/test', '/studio/**', '/not-found'],
+  autoLastmod: true,
   transform: async (config, path) => {
     const highPriority = ['/', '/vijayawada-escorts', '/vijayawada-call-girls', '/vip-escorts-vijayawada', '/independent-escorts-vijayawada', '/hotel-escort-service-vijayawada', '/24-7-escorts-vijayawada', '/about'];
     const mediumPriority = ['/luxury-companionship', '/premium-models', '/whatsapp-booking', '/benz-circle-escorts', '/mg-road-vijayawada', '/governorpet-escorts', '/railway-station-escorts-vijayawada', '/gannavaram-escorts', '/patamata-companionship', '/faq', '/contact'];
@@ -32,7 +29,7 @@ module.exports = {
       loc: path,
       changefreq,
       priority,
-      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+      lastmod: new Date().toISOString(),
     };
   },
 };

@@ -11,20 +11,26 @@ export async function POST(request) {
       return NextResponse.json({ error: 'No URLs provided' }, { status: 400 });
     }
 
-    const response = await fetch('https://api.indexnow.org/IndexNow', {
+    const fullUrls = urls.map(url => url.startsWith('http') ? url : `${HOST}${url}`);
+
+    // Submit to IndexNow (Bing, Yandex, Seznam, Naver)
+    const indexNowResponse = await fetch('https://api.indexnow.org/IndexNow', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         host: 'www.vijayawadacallgirls.online',
         key: INDEXNOW_KEY,
         keyLocation: `${HOST}/${INDEXNOW_KEY}.txt`,
-        urlList: urls.map(url => url.startsWith('http') ? url : `${HOST}${url}`),
+        urlList: fullUrls,
       }),
     });
 
+    // Ping Google sitemap
+    await fetch(`https://www.google.com/ping?sitemap=${encodeURIComponent(`${HOST}/sitemap.xml`)}`).catch(() => {});
+
     return NextResponse.json({
       success: true,
-      status: response.status,
+      indexNowStatus: indexNowResponse.status,
       submitted: urls.length,
     });
   } catch (error) {
@@ -72,7 +78,8 @@ export async function GET() {
   ];
 
   try {
-    const response = await fetch('https://api.indexnow.org/IndexNow', {
+    // Submit to IndexNow
+    const indexNowResponse = await fetch('https://api.indexnow.org/IndexNow', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -83,11 +90,17 @@ export async function GET() {
       }),
     });
 
+    // Ping Google and Bing sitemaps
+    await Promise.allSettled([
+      fetch(`https://www.google.com/ping?sitemap=${encodeURIComponent(`${HOST}/sitemap.xml`)}`),
+      fetch(`https://www.bing.com/ping?sitemap=${encodeURIComponent(`${HOST}/sitemap.xml`)}`),
+    ]);
+
     return NextResponse.json({
       success: true,
-      status: response.status,
+      indexNowStatus: indexNowResponse.status,
       submitted: allUrls.length,
-      message: 'All URLs submitted to IndexNow (Bing + Yandex)',
+      message: 'All URLs submitted to IndexNow + Google/Bing sitemap pings sent',
     });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to submit' }, { status: 500 });

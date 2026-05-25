@@ -32,7 +32,13 @@ export const metadata = {
   description: 'Vijayawada\'s most trusted escort service. Verified companions, instant WhatsApp booking, hotel visits, and 24/7 availability. Real profiles, zero drama, complete privacy.',
   keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada'],
   authors: [{ name: SITE_NAME }],
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    'max-image-preview': 'large',
+    'max-snippet': -1,
+    'max-video-preview': -1,
+  },
   verification: {
     google: 'VD-2ptuidTWVk9ZW-FRnBPlRsTiPFHcazYbXXbxVVCo',
   },
