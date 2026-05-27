@@ -36,7 +36,7 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {reviews.map((review, idx) => (
             <div key={idx} className="glass-card p-7 hover:border-[#d4af37]/20 transition-all duration-300">
               <div className="flex gap-1 mb-4">

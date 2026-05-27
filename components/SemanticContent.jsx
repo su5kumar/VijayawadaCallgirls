@@ -85,6 +85,9 @@ export default function SemanticContent() {
             <p>
               We cover all the areas you&apos;d expect — <Link href="/benz-circle-escorts" className="text-[#d4af37] hover:underline">Benz Circle</Link> (most of our hotel bookings happen here), <Link href="/mg-road-vijayawada" className="text-[#d4af37] hover:underline">MG Road</Link>, <Link href="/governorpet-escorts" className="text-[#d4af37] hover:underline">Governorpet</Link>, <Link href="/patamata-companionship" className="text-[#d4af37] hover:underline">Patamata</Link>, the <Link href="/railway-station-escorts-vijayawada" className="text-[#d4af37] hover:underline">Railway Station area</Link> for travelers in transit, and <Link href="/gannavaram-escorts" className="text-[#d4af37] hover:underline">Gannavaram for airport pickups</Link>. If you&apos;re at a hotel anywhere in the city, we can coordinate. We know the venues, the staff knows us, and everything runs smoothly.
             </p>
+            <p className="mt-3">
+              We also serve nearby cities — <Link href="/guntur-escorts" className="text-[#d4af37] hover:underline">call girls in Guntur</Link> (30 min drive), <Link href="/amaravati-escorts" className="text-[#d4af37] hover:underline">Amaravati capital region</Link>, and <Link href="/mangalagiri-escorts" className="text-[#d4af37] hover:underline">Mangalagiri</Link>. Same verified <Link href="/vijayawada-call-girls" className="text-[#d4af37] hover:underline">Vijayawada call girls</Link>, same quality, just a short drive away.
+            </p>
           </div>
 
           <div>

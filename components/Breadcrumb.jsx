@@ -19,15 +19,15 @@ export default function Breadcrumb({ items }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <nav aria-label="Breadcrumb" className="py-4">
-        <ol className="flex items-center gap-1.5 text-xs text-[#a0a0b0] flex-wrap">
+      <nav aria-label="Breadcrumb" className="py-3 sm:py-4 overflow-x-auto scrollbar-hide">
+        <ol className="flex items-center gap-1 sm:gap-1.5 text-xs text-[#a0a0b0] whitespace-nowrap sm:whitespace-normal sm:flex-wrap">
           {items.map((item, idx) => (
-            <li key={idx} className="flex items-center gap-1.5">
-              {idx > 0 && <ChevronRight size={10} className="text-[#a0a0b0]/50" />}
+            <li key={idx} className="flex items-center gap-1 sm:gap-1.5 min-w-0">
+              {idx > 0 && <ChevronRight size={10} className="text-[#a0a0b0]/50 shrink-0" />}
               {item.href ? (
-                <Link href={item.href} className="hover:text-[#d4af37] transition-colors">{item.name}</Link>
+                <Link href={item.href} className="hover:text-[#d4af37] transition-colors truncate max-w-[120px] sm:max-w-none py-1">{item.name}</Link>
               ) : (
-                <span className="text-[#d4af37]">{item.name}</span>
+                <span className="text-[#d4af37] truncate max-w-[140px] sm:max-w-none">{item.name}</span>
               )}
             </li>
           ))}

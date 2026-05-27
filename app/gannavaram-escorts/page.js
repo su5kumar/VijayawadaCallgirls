@@ -3,7 +3,7 @@ import WhatsAppCTA from '@/components/WhatsAppCTA';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
-import { generateServiceSchema, generateFAQSchema } from '@/lib/schema';
+import { generateServiceSchema, generateFAQSchema, generateLocalBusinessSchema } from '@/lib/schema';
 
 const areaFAQs = [
   { q: 'Are escorts available near Gannavaram Airport?', a: 'Yes, our premium companions are available for bookings near Vijayawada (Gannavaram) Airport with advance coordination via WhatsApp for seamless arrival experiences.' },
@@ -14,7 +14,7 @@ const areaFAQs = [
 
 export const metadata = {
   title: 'Gannavaram Escorts | Airport Area Companionship Vijayawada',
-  description: 'Premium escorts near Gannavaram Airport, Vijayawada. Luxury companionship for air travelers, corporate executives, and business visitors with discreet airport-area coordination.',
+  description: 'Premium escorts near Gannavaram Airport, Vijayawada. Discreet companionship for air travelers & corporate executives. 30-min airport-area coordination.',
   keywords: ['Gannavaram escorts', 'escorts near Gannavaram Airport', 'airport escorts Vijayawada', 'call girls Gannavaram'],
   alternates: { canonical: `${SITE_URL}/gannavaram-escorts` },
   openGraph: {
@@ -41,10 +41,19 @@ export default function GannavaramEscorts() {
 
   const faqSchema = generateFAQSchema(areaFAQs);
 
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Escorts Near Gannavaram Airport, Vijayawada',
+    street: 'Gannavaram Airport Road',
+    url: `${SITE_URL}/gannavaram-escorts`,
+    lat: 16.5308,
+    lng: 80.7975,
+  });
+
   return (
     <div className="pt-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }} />
 
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[

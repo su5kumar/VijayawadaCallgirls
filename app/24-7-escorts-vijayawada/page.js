@@ -14,21 +14,21 @@ const serviceFAQs = [
 ];
 
 export const metadata = {
-  title: '24/7 Escorts Service Vijayawada | Available Any Hour',
-  description: '24 hour escorts service in Vijayawada available round the clock. Instant WhatsApp booking, late-night companionship, and emergency coordination at any hour across all areas.',
-  keywords: ['24/7 escorts Vijayawada', '24 hour escort service', 'night escorts Vijayawada', 'late night call girls Vijayawada'],
+  title: 'Night Call Girls Vijayawada | 24/7 Escorts Available Now',
+  description: 'Night call girls in Vijayawada available 24/7. Late-night hotel visits, overnight companionship & instant WhatsApp booking. Verified companions citywide.',
+  keywords: ['night call girls Vijayawada', '24/7 call girls Vijayawada', 'late night escorts Vijayawada', 'overnight call girls Vijayawada', 'midnight escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/24-7-escorts-vijayawada` },
   openGraph: {
-    title: '24/7 Escorts Service Vijayawada | Available Any Hour',
-    description: '24 hour escorts service in Vijayawada available round the clock with instant booking.',
+    title: 'Night Call Girls Vijayawada | 24/7 Available Now',
+    description: 'Night call girls in Vijayawada available 24/7 with instant WhatsApp booking.',
     url: `${SITE_URL}/24-7-escorts-vijayawada`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: '24/7 Escorts Service Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Night Call Girls Vijayawada - 24/7 Service' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '24/7 Escorts Service Vijayawada | Available Any Hour',
-    description: '24 hour escorts service in Vijayawada available round the clock with instant booking.',
+    title: 'Night Call Girls Vijayawada | 24/7 Available',
+    description: 'Night call girls in Vijayawada available 24/7 with instant WhatsApp booking.',
     images: ['/opengraph-image'],
   },
 };

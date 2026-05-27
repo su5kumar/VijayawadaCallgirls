@@ -5,21 +5,21 @@ import { SITE_URL, WHATSAPP_URL } from '@/lib/constants';
 import { MessageCircle, Clock, Shield, CheckCircle } from 'lucide-react';
 
 export const metadata = {
-  title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
-  description: 'Book premium escorts in Vijayawada instantly via WhatsApp. Fast, secure, and confidential booking process with dedicated concierge support available 24/7.',
-  keywords: ['WhatsApp booking escort Vijayawada', 'book escort Vijayawada', 'instant booking escorts', 'escort booking online Vijayawada'],
+  title: 'Call Girls WhatsApp Number Vijayawada | Book 24/7',
+  description: 'Get Vijayawada call girls WhatsApp number for instant booking. Verified photos, direct chat with companions, 24/7 availability. Secure & confidential.',
+  keywords: ['Vijayawada call girls whatsapp number', 'call girls whatsapp Vijayawada', 'book call girls Vijayawada', 'Vijayawada escorts whatsapp booking', 'call girls contact number Vijayawada'],
   alternates: { canonical: `${SITE_URL}/whatsapp-booking` },
   openGraph: {
-    title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
-    description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
+    title: 'Call Girls WhatsApp Number Vijayawada | Book 24/7',
+    description: 'Get Vijayawada call girls WhatsApp number for instant booking with verified companions.',
     url: `${SITE_URL}/whatsapp-booking`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'WhatsApp Booking - Instant Escort Booking Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Call Girls WhatsApp Booking' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WhatsApp Booking | Instant Escort Booking Vijayawada',
-    description: 'Instant WhatsApp booking for premium escorts in Vijayawada.',
+    title: 'Vijayawada Call Girls WhatsApp Number | Instant Booking',
+    description: 'Get Vijayawada call girls WhatsApp number for instant booking with verified companions.',
     images: ['/opengraph-image'],
   },
 };

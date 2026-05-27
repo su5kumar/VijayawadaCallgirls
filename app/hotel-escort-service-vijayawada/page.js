@@ -14,21 +14,21 @@ const hotelFAQs = [
 ];
 
 export const metadata = {
-  title: 'Hotel Escort Service Vijayawada | Discreet Hotel Companionship',
-  description: 'Premium hotel escort service in Vijayawada. Discreet companionship at five-star hotels, business venues, and luxury resorts. Available 24/7 with fast WhatsApp booking.',
-  keywords: ['hotel escort service Vijayawada', 'hotel call girls Vijayawada', 'discreet hotel companionship', 'escort hotel visit Vijayawada'],
+  title: 'Hotel Call Girls Vijayawada | Outcall Room Service',
+  description: 'Hotel call girls in Vijayawada for discreet in-room outcall service. Verified companions visit 3-star to 5-star hotels. Arrive in 30 min via WhatsApp.',
+  keywords: ['hotel call girls Vijayawada', 'hotel escort service Vijayawada', 'outcall escorts Vijayawada', 'hotel room service Vijayawada', 'call girls hotel visit Vijayawada'],
   alternates: { canonical: `${SITE_URL}/hotel-escort-service-vijayawada` },
   openGraph: {
-    title: 'Hotel Escort Service Vijayawada | Discreet Companionship',
-    description: 'Premium hotel escort service in Vijayawada with discreet hotel visit companionship.',
+    title: 'Hotel Call Girls Vijayawada | In-Room Outcall Service',
+    description: 'Hotel call girls in Vijayawada for discreet in-room outcall service at all major hotels.',
     url: `${SITE_URL}/hotel-escort-service-vijayawada`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Hotel Escort Service Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Hotel Call Girls Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hotel Escort Service Vijayawada | Discreet Companionship',
-    description: 'Premium hotel escort service in Vijayawada with discreet hotel visit companionship.',
+    title: 'Hotel Call Girls Vijayawada | In-Room Outcall Service',
+    description: 'Hotel call girls in Vijayawada for discreet in-room outcall service at all major hotels.',
     images: ['/opengraph-image'],
   },
 };

@@ -8,7 +8,7 @@ export default function WhatsAppCTA() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.06)_0%,transparent_70%)]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-5 md:px-8 text-center">
-        <div className="glass-card p-10 md:p-14 border-[#d4af37]/15">
+        <div className="glass-card p-6 sm:p-10 md:p-14 border-[#d4af37]/15">
           <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-[#25D366]/10 flex items-center justify-center">
             <MessageCircle size={30} className="text-[#25D366]" />
           </div>

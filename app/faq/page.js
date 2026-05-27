@@ -49,9 +49,18 @@ export default function FAQPage() {
         ]} />
       </div>
 
+      <section className="py-12 md:py-16 text-center">
+        <div className="max-w-4xl mx-auto px-5 md:px-8">
+          <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold text-white mb-4">
+            Frequently Asked Questions
+          </h1>
+          <p className="text-[#a0a0b0] text-lg">Everything you need to know about our premium Vijayawada escort service</p>
+        </div>
+      </section>
+
       <FAQ
-        title="Frequently Asked Questions"
-        subtitle="Everything you need to know about our premium Vijayawada escort service"
+        title="Common Questions"
+        subtitle=""
       />
       <WhatsAppCTA />
       <InternalLinks />

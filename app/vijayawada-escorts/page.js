@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import WhatsAppCTA from '@/components/WhatsAppCTA';
@@ -6,21 +7,21 @@ import InternalLinks from '@/components/InternalLinks';
 import { SITE_URL, FAQ_ITEMS } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
-  description: 'Elite Vijayawada escorts with verified companions, luxury hospitality, and confidential WhatsApp booking. Available 24/7.',
-  keywords: ['Vijayawada escorts', 'escorts in Vijayawada', 'escort service Vijayawada', 'premium escorts Vijayawada', 'Vijayawada companionship'],
+  title: 'Escort Service Vijayawada | Verified Elite Companions',
+  description: 'Elite Vijayawada escorts with verified companions, luxury hospitality, and confidential WhatsApp booking. Available 24/7 for hotel visits across all areas.',
+  keywords: ['escort service Vijayawada', 'escorts in Vijayawada', 'premium escorts Vijayawada', 'best escort service Vijayawada', 'Vijayawada companionship'],
   alternates: { canonical: `${SITE_URL}/vijayawada-escorts` },
   openGraph: {
-    title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
-    description: 'Experience elite Vijayawada escorts with verified companions and luxury hospitality.',
+    title: 'Escort Service Vijayawada | Verified Elite Companions',
+    description: 'Experience elite escort service in Vijayawada with verified companions and luxury hospitality.',
     url: `${SITE_URL}/vijayawada-escorts`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Escorts - Elite Companionship' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Escort Service Vijayawada - Elite Companions' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vijayawada Escorts | Elite Companionship & Discreet Service',
-    description: 'Experience elite Vijayawada escorts with verified companions and luxury hospitality.',
+    title: 'Escort Service Vijayawada | Verified Elite Companions',
+    description: 'Experience elite escort service in Vijayawada with verified companions and luxury hospitality.',
     images: ['/opengraph-image'],
   },
 };
@@ -54,10 +55,10 @@ export default function VijayawadaEscorts() {
         <div className="relative z-10 max-w-4xl mx-auto px-5 md:px-8 text-center">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-4">Premium Escort Service</span>
           <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold text-white mb-6">
-            Vijayawada Escorts — Premium Companionship Redefined
+            Best Escort Service in Vijayawada — Premium & Verified
           </h1>
           <p className="text-[#a0a0b0] text-lg leading-relaxed max-w-3xl mx-auto">
-            Discover the finest escort service in Vijayawada. Our curated selection of elegant, educated, and sophisticated companions deliver unmatched experiences for corporate events, social gatherings, fine dining, and private engagements.
+            Looking for the best escort service in Vijayawada? Our curated selection of elegant, educated, and sophisticated companions deliver unmatched experiences for corporate events, social gatherings, fine dining, and private engagements.
           </p>
         </div>
       </section>
@@ -103,8 +104,11 @@ export default function VijayawadaEscorts() {
               <h2 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold text-white mb-4">
                 Serving All Premium Locations
               </h2>
-              <p className="text-[#a0a0b0] leading-relaxed">
+              <p className="text-[#a0a0b0] leading-relaxed mb-4">
                 Our Vijayawada escorts are available across all premium areas including Benz Circle, MG Road, Governorpet, Patamata, near the railway station, and all major hotel zones. With rapid WhatsApp coordination, we ensure seamless service delivery regardless of your location in the city.
+              </p>
+              <p className="text-[#a0a0b0] leading-relaxed">
+                Looking for <Link href="/vijayawada-call-girls" className="text-[#d4af37] hover:underline">Vijayawada call girls with real photos and WhatsApp number</Link>? We also serve nearby cities — <Link href="/guntur-escorts" className="text-[#d4af37] hover:underline">call girls in Guntur</Link>, <Link href="/amaravati-escorts" className="text-[#d4af37] hover:underline">Amaravati escorts</Link>, and <Link href="/mangalagiri-escorts" className="text-[#d4af37] hover:underline">Mangalagiri</Link>. Our <Link href="/hotel-escort-service-vijayawada" className="text-[#d4af37] hover:underline">hotel visit service</Link> and <Link href="/24-7-escorts-vijayawada" className="text-[#d4af37] hover:underline">night service</Link> are available 24/7.
               </p>
             </div>
           </div>

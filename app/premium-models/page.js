@@ -6,21 +6,21 @@ import ProfileShowcase from '@/components/ProfileShowcase';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Premium Models Vijayawada | Elite Model Companions',
-  description: 'Connect with premium model companions in Vijayawada. Professional models offering sophisticated companionship for high-profile events, photoshoots, and executive gatherings.',
-  keywords: ['premium models Vijayawada', 'model escorts Vijayawada', 'elite model companions', 'professional model companionship Vijayawada'],
+  title: 'Vijayawada Call Girls Photos | Real & Verified',
+  description: 'View real Vijayawada call girls photos — verified college girls & model companions with genuine pictures. WhatsApp for live photos & instant booking.',
+  keywords: ['Vijayawada call girls photo', 'call girls photos Vijayawada', 'real photos call girls', 'college call girls Vijayawada', 'model companions Vijayawada', 'Vijayawada call girls real'],
   alternates: { canonical: `${SITE_URL}/premium-models` },
   openGraph: {
-    title: 'Premium Models Vijayawada | Elite Model Companions',
-    description: 'Elite model companions for high-profile events in Vijayawada.',
+    title: 'Vijayawada Call Girls Photos | Real & Verified',
+    description: 'Real Vijayawada call girls photos — verified college girls and model companions.',
     url: `${SITE_URL}/premium-models`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Premium Models Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Call Girls Real Photos' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Models Vijayawada | Elite Model Companions',
-    description: 'Elite model companions for high-profile events in Vijayawada.',
+    title: 'Vijayawada Call Girls Photo | Real & Verified',
+    description: 'Real Vijayawada call girls photos — verified college girls and model companions.',
     images: ['/opengraph-image'],
   },
 };
@@ -40,10 +40,10 @@ export default function PremiumModels() {
         <div className="relative z-10 max-w-4xl mx-auto px-5 md:px-8 text-center">
           <span className="inline-block text-[#d4af37] text-xs font-semibold uppercase tracking-[0.2em] mb-4">Elite Models</span>
           <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold text-white mb-6">
-            Premium Models in Vijayawada
+            Vijayawada Call Girls Photos — Real & Verified
           </h1>
           <p className="text-[#a0a0b0] text-lg leading-relaxed max-w-3xl mx-auto">
-            Access our exclusive roster of professional model companions. Stunning, articulate, and polished — perfect for high-visibility occasions that demand extraordinary presence.
+            Browse real Vijayawada call girls photos with verified college companions and professional models. Every photo is genuine, recently taken, and identity-verified through video calls before publishing.
           </p>
         </div>
       </section>
@@ -54,13 +54,13 @@ export default function PremiumModels() {
         <div className="max-w-4xl mx-auto px-5 md:px-8 space-y-8">
           <div>
             <h2 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold text-white mb-4">
-              Professional Model Companionship
+              Real Call Girls Photos in Vijayawada
             </h2>
             <p className="text-[#a0a0b0] leading-relaxed mb-4">
-              Our premium models in Vijayawada represent the intersection of beauty, intelligence, and professional grace. These are individuals with modeling experience, media exposure, and the natural charisma that commands attention at any gathering.
+              Every Vijayawada call girls photo on our platform goes through a strict verification process. We confirm identity via video call, take recent photos in controlled settings, and update galleries regularly. What you see is exactly who you meet — no catfishing, no old pictures, no filters.
             </p>
             <p className="text-[#a0a0b0] leading-relaxed">
-              Whether you need a striking companion for a product launch, a sophisticated partner for an awards ceremony, or an elegant presence at a private celebration — our model companions deliver unforgettable impressions.
+              Our collection includes college call girls, independent companions, and professional models available for hotel visits and private meetings. Request live photos on WhatsApp anytime for additional verification before booking.
             </p>
           </div>
 

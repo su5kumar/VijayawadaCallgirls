@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const metadata = {
   title: 'Blog | Luxury Lifestyle & Premium Companionship Insights',
-  description: 'Luxury lifestyle guides, premium hospitality insights, VIP nightlife tips, and privacy guides for discerning individuals.',
+  description: 'Luxury lifestyle guides, premium hospitality insights, VIP nightlife tips, and privacy guides for discerning individuals in Vijayawada and beyond.',
   keywords: ['escort blog Vijayawada', 'luxury lifestyle Vijayawada', 'companionship guides', 'VIP nightlife Vijayawada'],
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {

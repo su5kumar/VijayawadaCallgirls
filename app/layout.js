@@ -1,11 +1,13 @@
 import './globals.css';
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
 import { Manrope, Playfair_Display } from 'next/font/google';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
-import StickyMobileCTA from '@/components/StickyMobileCTA';
+
+const FloatingWhatsApp = dynamic(() => import('@/components/FloatingWhatsApp'), { ssr: false });
+const StickyMobileCTA = dynamic(() => import('@/components/StickyMobileCTA'), { ssr: false });
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -23,14 +25,21 @@ const playfair = Playfair_Display({
   fallback: ['Georgia', 'serif'],
 });
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: 'cover',
+};
+
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Vijayawada Escorts Service | Premium VIP Companionship',
+    default: 'Vijayawada Escorts & Call Girls | Premium Service 24/7',
     template: '%s | Vijayawada Escorts',
   },
-  description: 'Vijayawada\'s most trusted escort service. Verified companions, instant WhatsApp booking, hotel visits, and 24/7 availability. Real profiles, zero drama, complete privacy.',
-  keywords: ['Vijayawada escorts', 'premium companionship Vijayawada', 'luxury hospitality Vijayawada', 'VIP companionship', 'social companion Vijayawada'],
+  description: 'Vijayawada\'s most trusted escorts & call girls service. Verified companions with real photos, instant WhatsApp booking, hotel visits, and 24/7 availability.',
+  keywords: ['Vijayawada escorts', 'Vijayawada call girls', 'call girls in Vijayawada', 'VIP companionship', 'Vijayawada call girls whatsapp number'],
   authors: [{ name: SITE_NAME }],
   robots: {
     index: true,
@@ -47,14 +56,14 @@ export const metadata = {
     locale: 'en_IN',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
-    description: 'Premium Vijayawada escorts with verified companions, luxury VIP hospitality, and discreet WhatsApp booking available 24/7.',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Premium VIP Companionship Vijayawada' }],
+    title: 'Vijayawada Escorts & Call Girls | Premium Service 24/7',
+    description: 'Vijayawada\'s most trusted escorts & call girls. Verified companions, real photos, WhatsApp booking & hotel visits.',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Vijayawada Call Girls - Verified Escorts Service' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vijayawada Escorts Service | Luxury VIP Companionship',
-    description: 'Premium Vijayawada escorts with verified companions and discreet WhatsApp booking 24/7.',
+    title: 'Vijayawada Escorts & Call Girls | Premium Service 24/7',
+    description: 'Vijayawada\'s most trusted escorts & call girls. Verified companions, real photos, WhatsApp booking & hotel visits.',
     images: ['/opengraph-image'],
   },
   alternates: {
@@ -175,6 +184,18 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <script
+          type="speculationrules"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            prerender: [{
+              where: { href_matches: "/*" },
+              eagerness: "moderate"
+            }]
+          }) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -194,7 +215,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-[#0b0b0d] text-[#f5f5f7] font-[family-name:var(--font-body)] antialiased">
         <Header />
-        <main className="pb-16 md:pb-0">{children}</main>
+        <main className="pb-20 md:pb-0">{children}</main>
         <Footer />
         <FloatingWhatsApp />
         <StickyMobileCTA />

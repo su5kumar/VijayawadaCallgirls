@@ -4,9 +4,10 @@ import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
+import { generateLocalBusinessSchema } from '@/lib/schema';
 
 export const metadata = {
-  title: 'Escorts Near Governorpet Vijayawada | Discreet Premium Service',
+  title: 'Governorpet Escorts Vijayawada | Discreet Service',
   description: 'Discreet premium escorts near Governorpet, Vijayawada. Elegant companions for business meetings, evening dinners, and private experiences in Governorpet area.',
   keywords: ['Governorpet escorts', 'escorts near Governorpet', 'call girls Governorpet Vijayawada'],
   alternates: { canonical: `${SITE_URL}/governorpet-escorts` },
@@ -26,8 +27,20 @@ export const metadata = {
 };
 
 export default function GovernorpetEscorts() {
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Escorts Near Governorpet, Vijayawada',
+    street: 'Governorpet, Vijayawada',
+    url: `${SITE_URL}/governorpet-escorts`,
+    lat: 16.5160,
+    lng: 80.6210,
+  });
+
   return (
     <div className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[
           { name: 'Home', href: '/' },

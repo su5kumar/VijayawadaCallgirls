@@ -23,4 +23,3 @@ Host: https://www.vijayawadacallgirls.online
 
 # Sitemaps
 Sitemap: https://www.vijayawadacallgirls.online/sitemap.xml
-Sitemap: https://www.vijayawadacallgirls.online/sitemap-0.xml

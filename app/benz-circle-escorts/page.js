@@ -4,6 +4,7 @@ import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
+import { generateLocalBusinessSchema } from '@/lib/schema';
 
 export const metadata = {
   title: 'Escorts Near Benz Circle Vijayawada | Premium Local Service',
@@ -26,8 +27,20 @@ export const metadata = {
 };
 
 export default function BenzCircleEscorts() {
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Escorts Near Benz Circle, Vijayawada',
+    street: 'Benz Circle, Ring Road',
+    url: `${SITE_URL}/benz-circle-escorts`,
+    lat: 16.5114,
+    lng: 80.6348,
+  });
+
   return (
     <div className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[
           { name: 'Home', href: '/' },

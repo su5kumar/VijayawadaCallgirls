@@ -5,21 +5,21 @@ import InternalLinks from '@/components/InternalLinks';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
-  description: 'Meet genuine independent escorts in Vijayawada. Self-managed, professional companions offering authentic and personalized companionship experiences with direct communication.',
-  keywords: ['independent escorts Vijayawada', 'self-managed escorts', 'independent call girls Vijayawada', 'genuine escorts Vijayawada'],
+  title: 'Independent Call Girls Vijayawada | Direct Contact',
+  description: 'Independent call girls in Vijayawada with direct contact. No middleman, real photos, personal WhatsApp. Verified companions for hotel visits & outcall.',
+  keywords: ['independent call girls Vijayawada', 'independent escorts Vijayawada', 'self-managed call girls Vijayawada', 'direct contact call girls Vijayawada', 'freelance escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/independent-escorts-vijayawada` },
   openGraph: {
-    title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
-    description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
+    title: 'Independent Call Girls Vijayawada | Direct Contact & Booking',
+    description: 'Independent call girls in Vijayawada with direct WhatsApp contact. No middleman.',
     url: `${SITE_URL}/independent-escorts-vijayawada`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Independent Escorts Vijayawada' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Independent Call Girls Vijayawada' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Independent Escorts Vijayawada | Genuine Self-Managed Companions',
-    description: 'Genuine independent escorts offering personalized experiences in Vijayawada.',
+    title: 'Independent Call Girls Vijayawada | Direct Contact',
+    description: 'Independent call girls in Vijayawada with direct WhatsApp contact. No middleman.',
     images: ['/opengraph-image'],
   },
 };

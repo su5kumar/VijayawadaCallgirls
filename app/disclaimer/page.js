@@ -2,8 +2,8 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Disclaimer',
-  description: 'Important disclaimer regarding our premium companionship services in Vijayawada. Please read before using our platform.',
+  title: 'Disclaimer | Vijayawada Escorts Service',
+  description: 'Important disclaimer for our premium escort & companionship services in Vijayawada. Legal terms, age requirements & usage conditions. Read before booking.',
   keywords: ['disclaimer', 'escort service disclaimer', 'terms Vijayawada escorts'],
   alternates: { canonical: `${SITE_URL}/disclaimer` },
   openGraph: {

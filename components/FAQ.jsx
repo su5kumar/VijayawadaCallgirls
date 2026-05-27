@@ -30,7 +30,7 @@ export default function FAQ({ items = FAQ_ITEMS, title = 'Frequently Asked Quest
                   <span className="text-white font-medium text-sm pr-4">{item.q}</span>
                   <ChevronDown size={18} className={`text-[#d4af37] shrink-0 transition-transform duration-300 ${isActive ? 'rotate-180' : ''}`} />
                 </button>
-                <div className={`overflow-hidden transition-all duration-300 ${isActive ? 'max-h-48 pb-5 px-5' : 'max-h-0'}`}>
+                <div className={`overflow-hidden transition-all duration-300 ${isActive ? 'max-h-[500px] pb-5 px-5' : 'max-h-0'}`}>
                   <p className="text-[#a0a0b0] text-sm leading-relaxed">{item.a}</p>
                 </div>
               </div>

@@ -2,7 +2,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Privacy Policy',
+  title: 'Privacy Policy | Vijayawada Escorts Service',
   description: 'Our privacy policy outlines how we collect, protect, and handle your personal information when using our premium escort service in Vijayawada.',
   keywords: ['privacy policy', 'escort service privacy', 'data protection Vijayawada escorts'],
   alternates: { canonical: `${SITE_URL}/privacy-policy` },

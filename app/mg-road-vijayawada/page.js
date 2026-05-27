@@ -4,6 +4,7 @@ import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
+import { generateLocalBusinessSchema } from '@/lib/schema';
 
 export const metadata = {
   title: 'Escorts Near MG Road Vijayawada | Premium Companions',
@@ -26,8 +27,20 @@ export const metadata = {
 };
 
 export default function MGRoadEscorts() {
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Escorts Near MG Road, Vijayawada',
+    street: 'MG Road, Vijayawada',
+    url: `${SITE_URL}/mg-road-vijayawada`,
+    lat: 16.5100,
+    lng: 80.6300,
+  });
+
   return (
     <div className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[
           { name: 'Home', href: '/' },

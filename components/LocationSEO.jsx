@@ -32,6 +32,21 @@ const locations = [
     slug: 'gannavaram-escorts',
     description: 'Landing at the airport? Pre-book before you land and have someone ready by the time you check in.',
   },
+  {
+    name: 'Guntur',
+    slug: 'guntur-escorts',
+    description: 'Just 30 minutes away — full service with verified call girls covering Brodipet, Arundelpet & all Guntur areas.',
+  },
+  {
+    name: 'Amaravati',
+    slug: 'amaravati-escorts',
+    description: 'AP Capital Region — discreet companions for professionals and officials. 20 min from Vijayawada.',
+  },
+  {
+    name: 'Mangalagiri',
+    slug: 'mangalagiri-escorts',
+    description: 'Between Vijayawada and Guntur — fastest arrival times from both hubs. Highway hotel visits available.',
+  },
 ];
 
 export default function LocationSEO() {

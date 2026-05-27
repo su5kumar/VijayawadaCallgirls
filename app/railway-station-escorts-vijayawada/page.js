@@ -4,7 +4,7 @@ import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
-import { generateServiceSchema, generateFAQSchema } from '@/lib/schema';
+import { generateServiceSchema, generateFAQSchema, generateLocalBusinessSchema } from '@/lib/schema';
 
 const areaFAQs = [
   { q: 'Are escorts available near Vijayawada Railway Station?', a: 'Yes, our premium companions are available for swift coordination near Vijayawada Junction railway station, with response times under 30 minutes for confirmed bookings.' },
@@ -14,7 +14,7 @@ const areaFAQs = [
 ];
 
 export const metadata = {
-  title: 'Escorts Near Vijayawada Railway Station | Quick & Discreet Service',
+  title: 'Escorts Near Vijayawada Railway Station | Discreet',
   description: 'Premium escorts near Vijayawada Railway Station. Fast coordination for travelers, discreet hotel companionship, and 24/7 availability near Vijayawada Junction.',
   keywords: ['railway station escorts Vijayawada', 'escorts near Vijayawada Junction', 'call girls railway station Vijayawada'],
   alternates: { canonical: `${SITE_URL}/railway-station-escorts-vijayawada` },
@@ -42,10 +42,19 @@ export default function RailwayStationEscorts() {
 
   const faqSchema = generateFAQSchema(areaFAQs);
 
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Escorts Near Vijayawada Railway Station',
+    street: 'Railway Station Road, Vijayawada Junction',
+    url: `${SITE_URL}/railway-station-escorts-vijayawada`,
+    lat: 16.5175,
+    lng: 80.6198,
+  });
+
   return (
     <div className="pt-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }} />
 
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[

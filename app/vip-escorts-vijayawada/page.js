@@ -6,21 +6,21 @@ import InternalLinks from '@/components/InternalLinks';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
-  description: 'Exclusive VIP escorts in Vijayawada. Ultra-premium companionship for executives and distinguished travelers seeking the finest.',
-  keywords: ['VIP escorts Vijayawada', 'elite escorts Vijayawada', 'premium VIP companionship', 'luxury escorts Vijayawada'],
+  title: 'VIP Call Girls Vijayawada | High Profile Escorts 24/7',
+  description: 'High profile call girls Vijayawada — VIP models, air hostesses & elite companions. Real photos, WhatsApp booking, hotel visits. Premium 24/7.',
+  keywords: ['high profile call girls Vijayawada', 'VIP escorts Vijayawada', 'VIP call girls Vijayawada', 'elite escorts Vijayawada', 'luxury call girls Vijayawada', 'model escorts Vijayawada'],
   alternates: { canonical: `${SITE_URL}/vip-escorts-vijayawada` },
   openGraph: {
-    title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
-    description: 'Exclusive VIP escorts for distinguished individuals in Vijayawada.',
+    title: 'High Profile Call Girls Vijayawada | VIP Escorts Service',
+    description: 'High profile call girls & VIP escorts in Vijayawada for executives and premium experiences.',
     url: `${SITE_URL}/vip-escorts-vijayawada`,
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'VIP Escorts Vijayawada - Exclusive Elite Companionship' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'High Profile Call Girls Vijayawada - VIP Escorts' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VIP Escorts Vijayawada | Exclusive Elite Companionship',
-    description: 'Exclusive VIP escorts for distinguished individuals in Vijayawada.',
+    title: 'High Profile Call Girls Vijayawada | VIP Escorts',
+    description: 'High profile call girls & VIP escorts in Vijayawada for executives and premium experiences.',
     images: ['/opengraph-image'],
   },
 };

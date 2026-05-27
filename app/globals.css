@@ -138,6 +138,38 @@
   animation: float 9s ease-in-out infinite;
 }
 
+/* Mobile touch targets - minimum 44x44px tap area (scoped to primary navigation only) */
+@media (pointer: coarse) {
+  button,
+  a.btn-gold,
+  a.btn-outline,
+  header nav a,
+  footer a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Content-visibility for off-screen sections */
+.content-below-fold {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+/* Safe area for notched devices */
+.safe-area-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+/* Hide scrollbar for breadcrumb horizontal scroll on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

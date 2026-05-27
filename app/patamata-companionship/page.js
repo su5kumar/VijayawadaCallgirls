@@ -4,6 +4,7 @@ import FAQ from '@/components/FAQ';
 import InternalLinks from '@/components/InternalLinks';
 import RelatedAreas from '@/components/RelatedAreas';
 import { SITE_URL } from '@/lib/constants';
+import { generateLocalBusinessSchema } from '@/lib/schema';
 
 export const metadata = {
   title: 'Patamata Companionship | Premium Escorts Patamata Vijayawada',
@@ -26,8 +27,20 @@ export const metadata = {
 };
 
 export default function PatamataCompanionship() {
+  const locationSchema = generateLocalBusinessSchema({
+    name: 'Premium Companionship in Patamata, Vijayawada',
+    street: 'Patamata, Vijayawada',
+    url: `${SITE_URL}/patamata-companionship`,
+    lat: 16.4960,
+    lng: 80.6650,
+  });
+
   return (
     <div className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <Breadcrumb items={[
           { name: 'Home', href: '/' },

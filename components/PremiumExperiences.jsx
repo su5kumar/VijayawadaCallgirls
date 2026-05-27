@@ -48,7 +48,7 @@ export default function PremiumExperiences() {
           {experiences.map((exp, idx) => (
             <div
               key={idx}
-              className="glass-card p-8 hover:border-[#d4af37]/25 transition-all duration-300 group"
+              className="glass-card p-5 sm:p-8 hover:border-[#d4af37]/25 transition-all duration-300 group"
             >
               <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#d4af37]/20 to-[#d4af37]/5 flex items-center justify-center text-[#d4af37] shrink-0">

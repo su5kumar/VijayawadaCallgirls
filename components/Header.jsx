@@ -15,6 +15,16 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [menuOpen]);
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#0b0b0d]/95 backdrop-blur-md border-b border-white/5 shadow-lg' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-5 md:px-8 flex items-center justify-between h-16 md:h-20">
@@ -54,31 +64,29 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="lg:hidden bg-[#0b0b0d]/98 backdrop-blur-xl border-t border-white/5 absolute top-full left-0 right-0 shadow-2xl">
-          <nav className="flex flex-col p-6 gap-1">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="px-4 py-3 text-[#a0a0b0] hover:text-[#d4af37] hover:bg-white/5 rounded-lg transition-all duration-200 font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-gold mt-4 text-center"
+      {/* Mobile Menu — always in DOM, toggled via CSS for better INP */}
+      <div className={`lg:hidden bg-[#0b0b0d]/98 backdrop-blur-xl border-t border-white/5 absolute top-full left-0 right-0 shadow-2xl transition-all duration-300 ${menuOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-2 pointer-events-none'}`}>
+        <nav className="flex flex-col p-6 gap-1">
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
+              className="px-4 py-3 text-[#a0a0b0] hover:text-[#d4af37] hover:bg-white/5 rounded-lg transition-all duration-200 font-medium"
             >
-              WhatsApp Booking
-            </a>
-          </nav>
-        </div>
-      )}
+              {link.label}
+            </Link>
+          ))}
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gold mt-4 text-center"
+          >
+            WhatsApp Booking
+          </a>
+        </nav>
+      </div>
     </header>
   );
 }

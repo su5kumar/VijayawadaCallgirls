@@ -2,7 +2,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Terms & Conditions',
+  title: 'Terms & Conditions | Vijayawada Escorts',
   description: 'Terms and conditions for using our premium escort and companionship service in Vijayawada. Please read carefully before using our services.',
   keywords: ['terms and conditions', 'escort service terms', 'Vijayawada escorts policy'],
   alternates: { canonical: `${SITE_URL}/terms-conditions` },

@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { BadgeCheck } from 'lucide-react';
@@ -10,7 +8,7 @@ const models = [
   { name: 'Saanvi', src: '/images/profiles/vijayawada-premium-model-companion-03.jpg', alt: 'Verified escort companion Saanvi in Vijayawada' },
   { name: 'Kiara', src: '/images/profiles/vijayawada-premium-model-companion-04.jpg', alt: 'Premium escort model Kiara in Vijayawada' },
   { name: 'Tara', src: '/images/profiles/vijayawada-premium-model-companion-05.jpg', alt: 'VIP companion Tara in Vijayawada' },
-  { name: 'Kavya', src: '/images/profiles/vijayawada-premium-model-companion-06.png', alt: 'Executive model companion Kavya in Vijayawada' },
+  { name: 'Kavya', src: '/images/profiles/vijayawada-premium-model-companion-06.jpg', alt: 'Executive model companion Kavya in Vijayawada' },
 ];
 
 export default function ModelsGallery() {
@@ -26,15 +24,20 @@ export default function ModelsGallery() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
           {models.map((model, i) => (
             <div key={i} className="group relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 hover:border-[#d4af37]/40 transition-all duration-300">
               <Image
                 src={model.src}
                 alt={model.alt}
                 fill
+                priority={i < 2}
+                loading={i < 2 ? 'eager' : 'lazy'}
+                quality={65}
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
-                sizes="(max-width: 768px) 50vw, 33vw"
+                sizes="(max-width: 768px) 45vw, 30vw"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAn/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54teleA//9k="
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0d] via-transparent to-transparent opacity-90" />
               {/* Name & Verified Badge */}
