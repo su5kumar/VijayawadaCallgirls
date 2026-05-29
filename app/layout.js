@@ -183,6 +183,20 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
+
+          {/* Google tag (gtag.js) for Google Ads AW-18177691297 */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=AW-18177691297"
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-gtag" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18177691297');
+            `}
+          </Script>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
